@@ -1,0 +1,171 @@
+[gd_scene format=3 uid="uid://bfxn0ipn31fnl"]
+
+[ext_resource type="Script" uid="uid://bh5hx61ahcrr5" path="res://red_scene_1.gd" id="1_uhddp"]
+[ext_resource type="Texture2D" uid="uid://tggdqnubh0vc" path="res://export202601311741233340.png" id="2_uhddp"]
+[ext_resource type="Texture2D" uid="uid://c40soxf02ix2g" path="res://timer_background.png" id="3_5l6a4"]
+[ext_resource type="Texture2D" uid="uid://c7pfmmao04673" path="res://mask_background.png" id="4_lw048"]
+[ext_resource type="PackedScene" uid="uid://coc68b6e6g0wt" path="res://time.tscn" id="5_5ak18"]
+[ext_resource type="Texture2D" uid="uid://nlwdpp5dy08t" path="res://carpet_red.png" id="6_a7f68"]
+[ext_resource type="Texture2D" uid="uid://bc57m04gb5s32" path="res://carpet_red_selected.png" id="7_a7f68"]
+[ext_resource type="Texture2D" uid="uid://mnxmb2qksdl2" path="res://Table_Final.png" id="8_a7f68"]
+[ext_resource type="Texture2D" uid="uid://orp08aix5jui" path="res://red_cat.png" id="9_5l6a4"]
+[ext_resource type="Texture2D" uid="uid://dxeyia2ulbbvy" path="res://red_cat_selected.png" id="11_lw048"]
+[ext_resource type="Texture2D" uid="uid://djnqxqes3gals" path="res://clock.png" id="11_uhddp"]
+[ext_resource type="Texture2D" uid="uid://704ess7g1qos" path="res://clock_selected.png" id="12_a7f68"]
+[ext_resource type="Texture2D" uid="uid://diwyq4xylft2c" path="res://red_cup.png" id="13_uhddp"]
+[ext_resource type="Texture2D" uid="uid://bvbbfu0jiy1xt" path="res://red_cup_selected.png" id="14_a7f68"]
+[ext_resource type="Texture2D" uid="uid://b1qyi6y5it0wb" path="res://selected regular knife.png" id="15_5l6a4"]
+[ext_resource type="Texture2D" uid="uid://dhli1o30jyoum" path="res://mirror.png" id="17_5l6a4"]
+[ext_resource type="Texture2D" uid="uid://bivodpgmb4tpo" path="res://regular knife.png" id="17_lw048"]
+[ext_resource type="Texture2D" uid="uid://fqsg2ty2d6ei" path="res://mirror_selected.png" id="18_lw048"]
+[ext_resource type="Texture2D" uid="uid://cngttom8u4lqj" path="res://left_navigation.png" id="19_axmkx"]
+[ext_resource type="Texture2D" uid="uid://ccgm3tiudkuen" path="res://left_navigation_selected.png" id="20_hs0sl"]
+[ext_resource type="Texture2D" uid="uid://5pi01q475dew" path="res://right_navigation.png" id="21_hqjut"]
+[ext_resource type="Texture2D" uid="uid://cpq0sm28lm1gx" path="res://right_navigation_selected.png" id="22_0nnwe"]
+[ext_resource type="Texture2D" uid="uid://dbq7cosjc50jn" path="res://drive-download-20260201T143444Z-3-001/description_box.png" id="23_a7f68"]
+[ext_resource type="FontFile" uid="uid://c6n2oatsvwa5v" path="res://vinivicious.ttf" id="24_a7f68"]
+[ext_resource type="Texture2D" uid="uid://gkqa2le5p8ph" path="res://drive-download-20260201T143444Z-3-001/Investigation Assets/export202602010346595520.png" id="25_5l6a4"]
+[ext_resource type="Texture2D" uid="uid://d0kgdcj18q0jv" path="res://drive-download-20260201T143444Z-3-001/Investigation Assets/export202602010346485170.png" id="26_lw048"]
+[ext_resource type="Texture2D" uid="uid://bbg1228pvg1tw" path="res://drive-download-20260201T143444Z-3-001/Investigation Assets/export202602010348029650.png" id="27_5ak18"]
+[ext_resource type="Texture2D" uid="uid://c84w8cjkhlgh5" path="res://drive-download-20260201T143444Z-3-001/Investigation Assets/export202602010348101110.png" id="28_rjd15"]
+[ext_resource type="Texture2D" uid="uid://bwb1o1nnvoxhk" path="res://drive-download-20260201T143444Z-3-001/Investigation Assets/export202602010349338510.png" id="29_fu0mu"]
+[ext_resource type="Texture2D" uid="uid://sofenhfo4vk7" path="res://drive-download-20260201T143444Z-3-001/Investigation Assets/export202602010349284480.png" id="30_i8e4n"]
+
+[node name="scene_1" type="Node2D" unique_id=1876859562]
+script = ExtResource("1_uhddp")
+
+[node name="Export202601311741233340" type="Sprite2D" parent="." unique_id=1592480456]
+position = Vector2(967, 536)
+texture = ExtResource("2_uhddp")
+
+[node name="TimerBackground" type="Sprite2D" parent="." unique_id=1605028899]
+position = Vector2(1677, 129)
+texture = ExtResource("3_5l6a4")
+
+[node name="MaskBackground" type="Sprite2D" parent="." unique_id=370412033]
+position = Vector2(762, 111)
+texture = ExtResource("4_lw048")
+
+[node name="Time" parent="." unique_id=1807356104 instance=ExtResource("5_5ak18")]
+
+[node name="Carpet" type="TextureButton" parent="." unique_id=1510849353]
+offset_left = 616.0
+offset_top = 668.0
+offset_right = 2032.0
+offset_bottom = 885.0
+texture_normal = ExtResource("6_a7f68")
+texture_hover = ExtResource("7_a7f68")
+ignore_texture_size = true
+
+[node name="InvestigationTable" type="Sprite2D" parent="." unique_id=424961294]
+position = Vector2(1104, 706)
+texture = ExtResource("8_a7f68")
+
+[node name="Chair" type="TextureButton" parent="." unique_id=242756526]
+offset_left = 1316.0
+offset_top = 405.0
+offset_right = 1701.0
+offset_bottom = 797.0
+texture_normal = ExtResource("9_5l6a4")
+texture_hover = ExtResource("11_lw048")
+
+[node name="Clock" type="TextureButton" parent="." unique_id=254540240]
+offset_left = 444.0
+offset_top = 259.0
+offset_right = 577.0
+offset_bottom = 769.0
+texture_normal = ExtResource("11_uhddp")
+texture_hover = ExtResource("12_a7f68")
+ignore_texture_size = true
+stretch_mode = 3
+
+[node name="Glass" type="TextureButton" parent="." unique_id=1831059123]
+offset_left = 1157.0
+offset_top = 484.0
+offset_right = 1286.0
+offset_bottom = 646.0
+texture_normal = ExtResource("13_uhddp")
+texture_hover = ExtResource("14_a7f68")
+
+[node name="Knife" type="TextureButton" parent="." unique_id=570968149]
+offset_left = 915.0
+offset_top = 568.0
+offset_right = 1133.0
+offset_bottom = 671.0
+texture_normal = ExtResource("15_5l6a4")
+texture_hover = ExtResource("17_lw048")
+
+[node name="Mirror" type="TextureButton" parent="." unique_id=1578395490]
+offset_left = 974.0
+offset_top = 267.0
+offset_right = 1149.0
+offset_bottom = 474.0
+texture_normal = ExtResource("17_5l6a4")
+texture_hover = ExtResource("18_lw048")
+ignore_texture_size = true
+stretch_mode = 3
+
+[node name="Back" type="TextureButton" parent="." unique_id=629825288]
+offset_left = -4.0
+offset_top = 501.0
+offset_right = 209.0
+offset_bottom = 719.0
+texture_normal = ExtResource("19_axmkx")
+texture_hover = ExtResource("20_hs0sl")
+
+[node name="Next" type="TextureButton" parent="." unique_id=119267172]
+offset_left = 1726.0
+offset_top = 522.0
+offset_right = 1934.0
+offset_bottom = 733.0
+texture_normal = ExtResource("21_hqjut")
+texture_hover = ExtResource("22_0nnwe")
+
+[node name="DescriptionBox" type="Sprite2D" parent="." unique_id=513052529]
+position = Vector2(965, 952)
+texture = ExtResource("23_a7f68")
+
+[node name="Description" type="Label" parent="DescriptionBox" unique_id=431365979]
+offset_left = -954.0
+offset_top = -101.0
+offset_right = 965.0
+offset_bottom = 113.0
+theme_override_fonts/font = ExtResource("24_a7f68")
+theme_override_font_sizes/font_size = 28
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Yelllow Mask" type="TextureButton" parent="." unique_id=1418968521]
+offset_left = 426.0
+offset_top = 38.0
+offset_right = 667.0
+offset_bottom = 169.0
+texture_normal = ExtResource("25_5l6a4")
+texture_hover = ExtResource("26_lw048")
+
+[node name="Red Mask" type="TextureButton" parent="." unique_id=1122097214]
+offset_left = 893.0
+offset_top = 26.0
+offset_right = 1130.0
+offset_bottom = 191.0
+texture_normal = ExtResource("28_rjd15")
+texture_hover = ExtResource("27_5ak18")
+
+[node name="Blue Mask" type="TextureButton" parent="." unique_id=742353936]
+offset_left = 690.0
+offset_top = 33.0
+offset_right = 897.0
+offset_bottom = 185.0
+texture_normal = ExtResource("29_fu0mu")
+texture_hover = ExtResource("30_i8e4n")
+
+[connection signal="pressed" from="Carpet" to="." method="_on_carpet_pressed"]
+[connection signal="pressed" from="Chair" to="." method="_on_chair_pressed"]
+[connection signal="pressed" from="Clock" to="." method="_on_clock_pressed"]
+[connection signal="pressed" from="Glass" to="." method="_on_glass_pressed"]
+[connection signal="pressed" from="Knife" to="." method="_on_knife_pressed"]
+[connection signal="pressed" from="Mirror" to="." method="_on_mirror_pressed"]
+[connection signal="pressed" from="Back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="Next" to="." method="_on_next_pressed"]
+[connection signal="pressed" from="Yelllow Mask" to="." method="_on_yelllow_mask_pressed"]
+[connection signal="pressed" from="Blue Mask" to="." method="_on_blue_mask_pressed"]

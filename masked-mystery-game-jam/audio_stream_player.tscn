@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://cix7vs4knbhpo"]
+
+[ext_resource type="AudioStream" uid="uid://coscmcab61tb2" path="res://mystery music.mp3" id="1_g84o6"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" unique_id=855347725]
+stream = ExtResource("1_g84o6")
+volume_db = -16.0
+autoplay = true

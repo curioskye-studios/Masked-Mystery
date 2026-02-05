@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://bxsoyx23s14o7"]
+
+[ext_resource type="Script" uid="uid://be5pbc05fbbka" path="res://start.gd" id="1_ots34"]
+[ext_resource type="Texture2D" uid="uid://b7l42y6rbbpbi" path="res://drive-download-20260201T143444Z-3-001/intro_background.png" id="2_oiuna"]
+[ext_resource type="Texture2D" uid="uid://b1oluiy36gbg1" path="res://drive-download-20260201T143444Z-3-001/button.png" id="3_4a3qj"]
+[ext_resource type="Texture2D" uid="uid://dyo6n1i6wcars" path="res://drive-download-20260201T143444Z-3-001/button_selected.png" id="4_g38d0"]
+
+[node name="start" type="Node2D" unique_id=692204140]
+script = ExtResource("1_ots34")
+
+[node name="IntroBackground" type="Sprite2D" parent="." unique_id=680355765]
+position = Vector2(955, 539)
+scale = Vector2(1.0142564, 1)
+texture = ExtResource("2_oiuna")
+
+[node name="Start" type="TextureButton" parent="." unique_id=528130696]
+offset_left = 283.0
+offset_top = 773.0
+offset_right = 962.0
+offset_bottom = 1096.0
+texture_normal = ExtResource("3_4a3qj")
+texture_hover = ExtResource("4_g38d0")
+
+[node name="Label" type="Label" parent="Start" unique_id=870313252]
+layout_mode = 0
+offset_left = 226.0
+offset_top = 116.0
+offset_right = 405.0
+offset_bottom = 199.0
+theme_override_font_sizes/font_size = 60
+text = "PLAY"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Quit" type="TextureButton" parent="." unique_id=2072306399]
+offset_left = 900.0
+offset_top = 776.0
+offset_right = 1579.0
+offset_bottom = 1099.0
+texture_normal = ExtResource("3_4a3qj")
+texture_hover = ExtResource("4_g38d0")
+
+[node name="Label" type="Label" parent="Quit" unique_id=84763410]
+layout_mode = 0
+offset_left = 230.0
+offset_top = 112.0
+offset_right = 409.0
+offset_bottom = 195.0
+theme_override_font_sizes/font_size = 60
+text = "QUIT"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="Start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

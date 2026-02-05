@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://6ntmy1a0a1gp"]
+
+[ext_resource type="Script" uid="uid://dxe1t2qpmidl4" path="res://outro_lose.gd" id="1_stkl0"]
+[ext_resource type="Texture2D" uid="uid://cro62yfxdi02g" path="res://drive-download-20260201T143444Z-3-001/outro_lose_background.png" id="2_stkl0"]
+[ext_resource type="Texture2D" uid="uid://b1oluiy36gbg1" path="res://drive-download-20260201T143444Z-3-001/button.png" id="3_stkl0"]
+[ext_resource type="Texture2D" uid="uid://dyo6n1i6wcars" path="res://drive-download-20260201T143444Z-3-001/button_selected.png" id="4_4jlun"]
+
+[node name="outro_lose" type="Node2D" unique_id=692204140]
+script = ExtResource("1_stkl0")
+
+[node name="OutroLoseBackground" type="Sprite2D" parent="." unique_id=308187984]
+position = Vector2(965, 543)
+texture = ExtResource("2_stkl0")
+
+[node name="Retry" type="TextureButton" parent="." unique_id=528130696]
+offset_left = 645.0
+offset_top = 809.0
+offset_right = 1230.0
+offset_bottom = 1054.0
+texture_normal = ExtResource("3_stkl0")
+texture_hover = ExtResource("4_4jlun")
+
+[node name="Label" type="Label" parent="Retry" unique_id=870313252]
+layout_mode = 0
+offset_left = 237.0
+offset_top = 115.0
+offset_right = 417.0
+offset_bottom = 198.0
+theme_override_font_sizes/font_size = 60
+text = "RETRY"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="Retry" to="." method="_on_retry_pressed"]

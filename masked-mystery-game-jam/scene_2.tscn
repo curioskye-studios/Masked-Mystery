@@ -1,0 +1,74 @@
+[gd_scene format=3 uid="uid://dj73l4jsss505"]
+
+[ext_resource type="Script" uid="uid://bvvlfrqs2ax4j" path="res://scene_2.gd" id="1_ogt5y"]
+[ext_resource type="Texture2D" uid="uid://di0alxfuu4cta" path="res://autopsy_background.png" id="2_4ia8e"]
+[ext_resource type="PackedScene" uid="uid://coc68b6e6g0wt" path="res://time.tscn" id="3_oq54p"]
+[ext_resource type="FontFile" uid="uid://c6n2oatsvwa5v" path="res://vinivicious.ttf" id="6_4bgvd"]
+[ext_resource type="Texture2D" uid="uid://5pi01q475dew" path="res://right_navigation.png" id="6_lpdaq"]
+[ext_resource type="Texture2D" uid="uid://c40soxf02ix2g" path="res://timer_background.png" id="7_4ia8e"]
+[ext_resource type="Texture2D" uid="uid://cpq0sm28lm1gx" path="res://right_navigation_selected.png" id="7_4lec3"]
+
+[node name="scene_2" type="Node2D" unique_id=1054876723]
+script = ExtResource("1_ogt5y")
+
+[node name="AutopsyBackground" type="Sprite2D" parent="." unique_id=1175512862]
+position = Vector2(960.5, 544.25)
+scale = Vector2(1.085893, 1.0292988)
+texture = ExtResource("2_4ia8e")
+
+[node name="TimerBackground" type="Sprite2D" parent="." unique_id=1617506739]
+position = Vector2(1677, 129)
+texture = ExtResource("7_4ia8e")
+
+[node name="Time" parent="." unique_id=1807356104 instance=ExtResource("3_oq54p")]
+
+[node name="Next" type="TextureButton" parent="." unique_id=1625523138]
+offset_left = 1709.0
+offset_top = 487.0
+offset_right = 1917.0
+offset_bottom = 698.0
+texture_normal = ExtResource("6_lpdaq")
+texture_hover = ExtResource("7_4lec3")
+
+[node name="Description_2" type="RichTextLabel" parent="." unique_id=195702667]
+offset_left = 1000.0
+offset_top = 253.0
+offset_right = 1432.0
+offset_bottom = 949.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("6_4bgvd")
+theme_override_font_sizes/normal_font_size = 25
+text = "Description: Perfectionist with an exceptional talent for design. Kept everything impeccably clean, save for his grandfather clock, where no one was ever allowed to touch it. High praises from his family, scholars and friends. Set to inherit the family fortune as the second born son.
+
+Time of Death: Around 11:30pm.
+
+Cause of Death: Bled out from 2 visible deep wounds in the neck.
+
+Additional Information: Traces of excess alcohol identified in the system.
+"
+
+[node name="Name" type="RichTextLabel" parent="." unique_id=136759762]
+offset_left = 451.0
+offset_top = 471.0
+offset_right = 688.0
+offset_bottom = 542.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 28
+text = "Fredrick Hughes"
+
+[node name="Description_1" type="RichTextLabel" parent="." unique_id=253099886]
+offset_left = 348.0
+offset_top = 588.0
+offset_right = 688.0
+offset_bottom = 780.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("6_4bgvd")
+theme_override_font_sizes/normal_font_size = 25
+text = "Gender: Male
+
+Age: 28
+
+Occupation: Architect
+"
+
+[connection signal="pressed" from="Next" to="." method="_on_next_pressed"]

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://coscmcab61tb2"
+path="res://.godot/imported/mystery music.mp3-b7a43222807446f71f1f59ff4c54c488.mp3str"
+
+[deps]
+
+source_file="res://mystery music.mp3"
+dest_files=["res://.godot/imported/mystery music.mp3-b7a43222807446f71f1f59ff4c54c488.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://b3x0u4503ye5r"]
+
+[ext_resource type="Script" uid="uid://dhaoofebdyp41" path="res://exposition.gd" id="1_nc0m0"]
+[ext_resource type="Texture2D" uid="uid://b65i6pwv1i6af" path="res://exposition_background.png" id="2_nc0m0"]
+[ext_resource type="Texture2D" uid="uid://b1d2mbi57wuyg" path="res://Outro Assets/outro_retry_button.png" id="3_imb4w"]
+[ext_resource type="Texture2D" uid="uid://dtrcf54by5skw" path="res://Outro Assets/outro_retry_button_selected.png" id="4_4rug3"]
+[ext_resource type="Texture2D" uid="uid://dib2ey2pbwj6k" path="res://description_box.png" id="5_imb4w"]
+
+[node name="exposition" type="Node2D" unique_id=692204140]
+script = ExtResource("1_nc0m0")
+
+[node name="ExpositionBackground" type="Sprite2D" parent="." unique_id=1892262337]
+position = Vector2(961, 541)
+texture = ExtResource("2_nc0m0")
+
+[node name="DescriptionBox" type="Sprite2D" parent="." unique_id=1651524214]
+position = Vector2(959, 955)
+texture = ExtResource("5_imb4w")
+
+[node name="Button" type="Button" parent="DescriptionBox" unique_id=420953223]
+offset_left = -946.0
+offset_top = -929.0
+offset_right = 947.0
+offset_bottom = 119.0
+
+[node name="Label" type="Label" parent="DescriptionBox/Button" unique_id=627296827]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Play" type="TextureButton" parent="." unique_id=528130696]
+visible = false
+offset_left = 664.0
+offset_top = 84.0
+offset_right = 1249.0
+offset_bottom = 329.0
+texture_normal = ExtResource("3_imb4w")
+texture_hover = ExtResource("4_4rug3")
+
+[node name="Label" type="Label" parent="Play" unique_id=870313252]
+layout_mode = 0
+offset_left = 203.0
+offset_top = 78.0
+offset_right = 382.0
+offset_bottom = 161.0
+theme_override_font_sizes/font_size = 60
+text = "PLAY"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="DescriptionBox/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
