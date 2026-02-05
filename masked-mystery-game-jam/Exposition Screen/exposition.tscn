@@ -1,0 +1,72 @@
+[gd_scene format=3 uid="uid://bkvt6qgktr8nk"]
+
+[ext_resource type="Script" uid="uid://bhk64cbejy7x1" path="res://Exposition Screen/exposition.gd" id="1_jwprq"]
+[ext_resource type="Texture2D" uid="uid://dm8eoul3v7ykk" path="res://Exposition Screen/Assets/exposition_background.png" id="2_d6wlc"]
+[ext_resource type="Texture2D" uid="uid://cvh378k0cd55y" path="res://Exposition Screen/Assets/exposition_box.png" id="3_l1ecj"]
+[ext_resource type="FontFile" uid="uid://cber4h11n0776" path="res://Global/Fonts/Web Open Font Format (.woff)/XTypewriter-Regular.woff2" id="4_l1ecj"]
+[ext_resource type="Texture2D" uid="uid://cngttom8u4lqj" path="res://Global/UI Assets/left_navigation.png" id="6_l1ecj"]
+[ext_resource type="Texture2D" uid="uid://ccgm3tiudkuen" path="res://Global/UI Assets/left_navigation_selected.png" id="7_ydblc"]
+[ext_resource type="Texture2D" uid="uid://5pi01q475dew" path="res://Global/UI Assets/right_navigation.png" id="8_50gd1"]
+[ext_resource type="Texture2D" uid="uid://cpq0sm28lm1gx" path="res://Global/UI Assets/right_navigation_selected.png" id="9_727dr"]
+[ext_resource type="Texture2D" uid="uid://b1oluiy36gbg1" path="res://Global/UI Assets/button.png" id="9_ydblc"]
+[ext_resource type="Texture2D" uid="uid://dyo6n1i6wcars" path="res://Global/UI Assets/button_selected.png" id="10_l1ecj"]
+
+[node name="exposition_new" type="Node2D" unique_id=692204140]
+script = ExtResource("1_jwprq")
+
+[node name="ExpositionBackground" type="Sprite2D" parent="." unique_id=1892262337]
+position = Vector2(961, 541)
+texture = ExtResource("2_d6wlc")
+
+[node name="ExpositionBox" type="Sprite2D" parent="." unique_id=870874618]
+position = Vector2(962, 498)
+texture = ExtResource("3_l1ecj")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ExpositionBox" unique_id=229450188]
+offset_left = -597.0
+offset_top = -223.0
+offset_right = 603.0
+offset_bottom = 228.0
+theme_override_fonts/normal_font = ExtResource("4_l1ecj")
+theme_override_font_sizes/normal_font_size = 50
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Back" type="TextureButton" parent="." unique_id=606830651]
+offset_left = 8.0
+offset_top = 473.0
+offset_right = 221.0
+offset_bottom = 691.0
+texture_normal = ExtResource("6_l1ecj")
+texture_hover = ExtResource("7_ydblc")
+
+[node name="Next" type="TextureButton" parent="." unique_id=1639031167]
+offset_left = 1709.0
+offset_top = 487.0
+offset_right = 1917.0
+offset_bottom = 698.0
+texture_normal = ExtResource("8_50gd1")
+texture_hover = ExtResource("9_727dr")
+
+[node name="Start" type="TextureButton" parent="." unique_id=302187817]
+offset_left = 622.0
+offset_top = 759.0
+offset_right = 1301.0
+offset_bottom = 1082.0
+texture_normal = ExtResource("9_ydblc")
+texture_hover = ExtResource("10_l1ecj")
+
+[node name="Label" type="Label" parent="Start" unique_id=1417973448]
+layout_mode = 0
+offset_left = 244.0
+offset_top = 115.0
+offset_right = 423.0
+offset_bottom = 198.0
+theme_override_font_sizes/font_size = 60
+text = "START"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="Back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="Next" to="." method="_on_next_pressed"]
+[connection signal="pressed" from="Start" to="." method="_on_start_pressed"]

@@ -1,0 +1,81 @@
+[gd_scene format=3 uid="uid://c1qnjb7r1jtkr"]
+
+[ext_resource type="Script" uid="uid://bvvlfrqs2ax4j" path="res://Screens/Autopsy Screen/autopsy.gd" id="1_eiyos"]
+[ext_resource type="Texture2D" uid="uid://sjadeo5ewq8o" path="res://Screens/Autopsy Screen/Assets/autopsy_background.png" id="2_yeap1"]
+[ext_resource type="Texture2D" uid="uid://c40soxf02ix2g" path="res://Global/UI Assets/timer_background.png" id="3_4vnhr"]
+[ext_resource type="PackedScene" uid="uid://coc68b6e6g0wt" path="res://Global/Scenes/time.tscn" id="4_flssj"]
+[ext_resource type="Texture2D" uid="uid://5pi01q475dew" path="res://Global/UI Assets/right_navigation.png" id="5_0c2ow"]
+[ext_resource type="Texture2D" uid="uid://cpq0sm28lm1gx" path="res://Global/UI Assets/right_navigation_selected.png" id="6_cp7s2"]
+[ext_resource type="FontFile" uid="uid://c6n2oatsvwa5v" path="res://Global/Fonts/vinivicious.ttf" id="7_pgna3"]
+
+[node name="scene_2" type="Node2D" unique_id=1054876723]
+script = ExtResource("1_eiyos")
+
+[node name="AutopsyBackground" type="Sprite2D" parent="." unique_id=1175512862]
+position = Vector2(960.5, 544.25)
+scale = Vector2(1.085893, 1.0292988)
+texture = ExtResource("2_yeap1")
+
+[node name="TimerBackground" type="Sprite2D" parent="." unique_id=1617506739]
+position = Vector2(1677, 129)
+texture = ExtResource("3_4vnhr")
+
+[node name="Time" parent="." unique_id=1807356104 instance=ExtResource("4_flssj")]
+
+[node name="Next" type="TextureButton" parent="." unique_id=1625523138]
+offset_left = 1709.0
+offset_top = 487.0
+offset_right = 1917.0
+offset_bottom = 698.0
+texture_normal = ExtResource("5_0c2ow")
+texture_hover = ExtResource("6_cp7s2")
+
+[node name="Description_2" type="RichTextLabel" parent="." unique_id=195702667]
+offset_left = 1022.0
+offset_top = 206.0
+offset_right = 1429.2521
+offset_bottom = 919.3374
+rotation = -0.027022514
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("7_pgna3")
+theme_override_font_sizes/normal_font_size = 27
+text = "Description: 
+Perfectionist with an exceptional talent for design. Kept everything impeccably clean, save for his grandfather clock, where no one was ever allowed to touch it. High praises from his family, scholars and friends. Set to inherit the family fortune as the second born son.
+
+Time of Death: 
+Around 11:30pm.
+
+Cause of Death: 
+Bled out from 2 visible deep wounds in the neck.
+
+Additional Information: 
+Traces of excess alcohol identified in the system.
+"
+
+[node name="Name" type="RichTextLabel" parent="." unique_id=136759762]
+offset_left = 381.0
+offset_top = 406.0
+offset_right = 618.0
+offset_bottom = 477.0
+rotation = 0.067136966
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 28
+text = "Fredrick Hughes"
+
+[node name="Description_1" type="RichTextLabel" parent="." unique_id=253099886]
+offset_left = 383.0
+offset_top = 564.0
+offset_right = 723.0
+offset_bottom = 756.0
+rotation = -0.012835519
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("7_pgna3")
+theme_override_font_sizes/normal_font_size = 27
+text = "Gender: Male
+
+Age: 28
+
+Occupation: Architect
+"
+
+[connection signal="pressed" from="Next" to="." method="_on_next_pressed"]

@@ -1,0 +1,57 @@
+[gd_scene format=3 uid="uid://bxsoyx23s14o7"]
+
+[ext_resource type="Script" uid="uid://be5pbc05fbbka" path="res://Intro Screen/start.gd" id="1_q5r2j"]
+[ext_resource type="Texture2D" uid="uid://b7l42y6rbbpbi" path="res://Intro Screen/Assets/intro_background.png" id="2_oiuna"]
+[ext_resource type="Texture2D" uid="uid://b1oluiy36gbg1" path="res://Global/UI Assets/button.png" id="3_4a3qj"]
+[ext_resource type="Texture2D" uid="uid://dyo6n1i6wcars" path="res://Global/UI Assets/button_selected.png" id="4_g38d0"]
+
+[node name="start" type="Node2D" unique_id=692204140]
+script = ExtResource("1_q5r2j")
+
+[node name="IntroBackground" type="Sprite2D" parent="." unique_id=680355765]
+position = Vector2(955, 539)
+scale = Vector2(1.0142564, 1)
+texture = ExtResource("2_oiuna")
+
+[node name="Start" type="TextureButton" parent="." unique_id=528130696]
+offset_left = 357.0
+offset_top = 783.00006
+offset_right = 1036.0
+offset_bottom = 1106.0
+scale = Vector2(0.8356017, 0.9161168)
+texture_normal = ExtResource("3_4a3qj")
+texture_hover = ExtResource("4_g38d0")
+
+[node name="Label" type="Label" parent="Start" unique_id=870313252]
+layout_mode = 0
+offset_left = 245.33224
+offset_top = 118.980415
+offset_right = 424.33224
+offset_bottom = 201.98041
+theme_override_font_sizes/font_size = 60
+text = "PLAY"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Quit" type="TextureButton" parent="." unique_id=2072306399]
+offset_left = 903.0
+offset_top = 786.0
+offset_right = 1582.0
+offset_bottom = 1109.0
+scale = Vector2(0.84273195, 0.89117527)
+texture_normal = ExtResource("3_4a3qj")
+texture_hover = ExtResource("4_g38d0")
+
+[node name="Label" type="Label" parent="Quit" unique_id=84763410]
+layout_mode = 0
+offset_left = 248.00291
+offset_top = 112.21135
+offset_right = 427.00293
+offset_bottom = 195.21135
+theme_override_font_sizes/font_size = 60
+text = "QUIT"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="Start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
