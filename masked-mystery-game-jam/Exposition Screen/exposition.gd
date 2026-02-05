@@ -40,3 +40,6 @@ func _on_next_pressed() -> void:
 
 func _on_start_pressed() -> void:
 	get_tree().change_scene_to_file("res://Autopsy Screen/autopsy.tscn")
+
+func _on_skip_pressed() -> void:
+	get_tree().change_scene_to_file("res://Autopsy Screen/autopsy.tscn")

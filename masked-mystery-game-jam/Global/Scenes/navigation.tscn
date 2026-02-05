@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://mvuxfmekjpkf"]
+
+[ext_resource type="Script" uid="uid://duqavr4se8aol" path="res://Global/Scripts/navigation.gd" id="1_u34ra"]
+[ext_resource type="Texture2D" uid="uid://cngttom8u4lqj" path="res://Global/UI Assets/left_navigation.png" id="2_xx2j2"]
+[ext_resource type="Texture2D" uid="uid://ccgm3tiudkuen" path="res://Global/UI Assets/left_navigation_selected.png" id="3_ife1m"]
+[ext_resource type="Texture2D" uid="uid://5pi01q475dew" path="res://Global/UI Assets/right_navigation.png" id="4_n4t5d"]
+[ext_resource type="Texture2D" uid="uid://cpq0sm28lm1gx" path="res://Global/UI Assets/right_navigation_selected.png" id="5_5bad6"]
+
+[node name="Navigation" type="Node2D" unique_id=1604309169]
+script = ExtResource("1_u34ra")
+
+[node name="Back" type="TextureButton" parent="." unique_id=2118474751]
+offset_left = -4.0
+offset_top = 501.0
+offset_right = 209.0
+offset_bottom = 719.0
+texture_normal = ExtResource("2_xx2j2")
+texture_hover = ExtResource("3_ife1m")
+
+[node name="Next" type="TextureButton" parent="." unique_id=737174677]
+offset_left = 1706.0
+offset_top = 522.0
+offset_right = 1914.0
+offset_bottom = 733.0
+texture_normal = ExtResource("4_n4t5d")
+texture_hover = ExtResource("5_5bad6")

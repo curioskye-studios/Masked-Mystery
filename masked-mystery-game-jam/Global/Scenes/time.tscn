@@ -1,7 +1,9 @@
 [gd_scene format=3 uid="uid://coc68b6e6g0wt"]
 
 [ext_resource type="Script" uid="uid://owk4p1je5wci" path="res://Global/Scripts/time.gd" id="1_5cvn0"]
+[ext_resource type="Texture2D" uid="uid://c40soxf02ix2g" path="res://Global/UI Assets/timer_background.png" id="2_3qv55"]
 [ext_resource type="FontFile" uid="uid://c6n2oatsvwa5v" path="res://Global/Fonts/vinivicious.ttf" id="2_a4cv0"]
+[ext_resource type="FontFile" uid="uid://m7l8txp85q7r" path="res://Global/Fonts/OpenType (.otf)/XTypewriter-Bold.otf" id="3_v4fen"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_5cvn0"]
 font = ExtResource("2_a4cv0")
@@ -10,11 +12,18 @@ font_size = 45
 [node name="Time" type="Node2D" unique_id=1807356104]
 script = ExtResource("1_5cvn0")
 
+[node name="TimerBackground" type="Sprite2D" parent="." unique_id=1657743115]
+position = Vector2(1726, 105.99999)
+scale = Vector2(0.7927468, 0.8228255)
+texture = ExtResource("2_3qv55")
+
 [node name="Label" type="Label" parent="." unique_id=638071522]
-offset_left = 1421.0
-offset_top = 2.0
-offset_right = 1923.0
-offset_bottom = 254.0
+offset_left = 1626.0
+offset_top = 78.0
+offset_right = 1817.0
+offset_bottom = 145.0
+theme_override_fonts/font = ExtResource("3_v4fen")
+theme_override_font_sizes/font_size = 28
 label_settings = SubResource("LabelSettings_5cvn0")
 horizontal_alignment = 1
 vertical_alignment = 1

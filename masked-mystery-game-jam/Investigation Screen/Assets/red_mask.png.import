@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dv2nmoq0vkfmn"
-path="res://.godot/imported/export202601311741233340.png-0b4daf0cad8c5a1279fc58dc8b17d5aa.ctex"
+uid="uid://ci3w1ribe61ve"
+path="res://.godot/imported/red_mask.png-43d5ed2ed769632552d975589f62e9b8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Investigation Screen/Assets/export202601311741233340.png"
-dest_files=["res://.godot/imported/export202601311741233340.png-0b4daf0cad8c5a1279fc58dc8b17d5aa.ctex"]
+source_file="res://Investigation Screen/Assets/red_mask.png"
+dest_files=["res://.godot/imported/red_mask.png-43d5ed2ed769632552d975589f62e9b8.ctex"]
 
 [params]
 

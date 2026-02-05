@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://gkqa2le5p8ph"
-path="res://.godot/imported/export202602010346595520.png-4009f9baf41e4a79074ffe07ed72fa53.ctex"
+uid="uid://bn8sfqmd07fbv"
+path="res://.godot/imported/selected murder knife.png-edac50e0f2dd37a000d8cadab2a9deb0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Investigation Screen/Assets/export202602010346595520.png"
-dest_files=["res://.godot/imported/export202602010346595520.png-4009f9baf41e4a79074ffe07ed72fa53.ctex"]
+source_file="res://Investigation Screen/selected murder knife.png"
+dest_files=["res://.godot/imported/selected murder knife.png-edac50e0f2dd37a000d8cadab2a9deb0.ctex"]
 
 [params]
 

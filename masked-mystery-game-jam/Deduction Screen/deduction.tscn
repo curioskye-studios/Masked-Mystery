@@ -1,14 +1,14 @@
 [gd_scene format=3 uid="uid://1gldxoswabsn"]
 
-[ext_resource type="Script" uid="uid://xp8lrbus63wg" path="res://Screens/Deduction Screen/deduction.gd" id="1_0csge"]
-[ext_resource type="Texture2D" uid="uid://cd3dhfxfl2gp2" path="res://Screens/Deduction Screen/Assets/deduction_background.png" id="2_tanov"]
+[ext_resource type="Script" uid="uid://xp8lrbus63wg" path="res://Deduction Screen/deduction.gd" id="1_0csge"]
+[ext_resource type="Texture2D" uid="uid://cd3dhfxfl2gp2" path="res://Deduction Screen/Assets/deduction_background.png" id="2_tanov"]
 [ext_resource type="PackedScene" uid="uid://coc68b6e6g0wt" path="res://Global/Scenes/time.tscn" id="3_hbkxh"]
 [ext_resource type="Texture2D" uid="uid://cngttom8u4lqj" path="res://Global/UI Assets/left_navigation.png" id="5_tanov"]
 [ext_resource type="Texture2D" uid="uid://ccgm3tiudkuen" path="res://Global/UI Assets/left_navigation_selected.png" id="6_bcpvq"]
-[ext_resource type="FontFile" uid="uid://4le5ilag1j14" path="res://Web Open Font Format (.woff)/XTypewriter-Bold.woff" id="7_tanov"]
+[ext_resource type="FontFile" uid="uid://4le5ilag1j14" path="res://Global/Fonts/Web Open Font Format (.woff)/XTypewriter-Bold.woff" id="7_tanov"]
 [ext_resource type="Texture2D" uid="uid://b1oluiy36gbg1" path="res://Global/UI Assets/button.png" id="8_bcpvq"]
-[ext_resource type="Texture2D" uid="uid://c40soxf02ix2g" path="res://Global/UI Assets/timer_background.png" id="8_pcsya"]
 [ext_resource type="Texture2D" uid="uid://dyo6n1i6wcars" path="res://Global/UI Assets/button_selected.png" id="9_tanov"]
+[ext_resource type="FontFile" uid="uid://bh2r7hp5y63ay" path="res://Global/Fonts/victoria_typewriter/Victoria Typewriter  Bold.ttf" id="9_ugs0k"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tanov"]
 bg_color = Color(0, 0, 0, 1)
@@ -58,9 +58,8 @@ corner_detail = 10
 [node name="Deduction" type="Node2D" unique_id=163325073]
 script = ExtResource("1_0csge")
 
-[node name="DeductionBackground" type="Sprite2D" parent="." unique_id=757993818]
-position = Vector2(962.5, 541.25)
-scale = Vector2(1.0915813, 1.0389049)
+[node name="DeductionBackground" type="Sprite2D" parent="." unique_id=977232902]
+position = Vector2(960, 536)
 texture = ExtResource("2_tanov")
 
 [node name="Back" type="TextureButton" parent="." unique_id=21850487]
@@ -71,18 +70,13 @@ offset_bottom = 719.0
 texture_normal = ExtResource("5_tanov")
 texture_hover = ExtResource("6_bcpvq")
 
-[node name="TimerBackground" type="Sprite2D" parent="." unique_id=1819199562]
-position = Vector2(1677, 129)
-texture = ExtResource("8_pcsya")
-
-[node name="Time" parent="TimerBackground" unique_id=1807356104 instance=ExtResource("3_hbkxh")]
-position = Vector2(-1677, -129)
+[node name="Time" parent="." unique_id=1807356104 instance=ExtResource("3_hbkxh")]
 
 [node name="Question_1" type="Label" parent="." unique_id=783698466]
-offset_left = 398.0
-offset_top = 287.0
-offset_right = 783.0
-offset_bottom = 530.0
+offset_left = 437.0
+offset_top = 310.0
+offset_right = 822.0
+offset_bottom = 553.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("7_tanov")
 theme_override_font_sizes/font_size = 33
@@ -95,6 +89,7 @@ offset_left = -4.0
 offset_top = 96.0
 offset_right = 385.0
 offset_bottom = 162.0
+theme_override_fonts/font = ExtResource("9_ugs0k")
 theme_override_styles/normal = SubResource("StyleBoxFlat_tanov")
 theme_override_styles/hover = SubResource("StyleBoxFlat_roa47")
 item_count = 4
@@ -108,10 +103,10 @@ popup/item_3/text = "Tripped & Hit the Table"
 popup/item_3/id = 3
 
 [node name="Question_2" type="Label" parent="." unique_id=11084641]
-offset_left = 402.0
-offset_top = 544.0
-offset_right = 788.0
-offset_bottom = 787.0
+offset_left = 441.0
+offset_top = 581.0
+offset_right = 827.0
+offset_bottom = 824.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("7_tanov")
 theme_override_font_sizes/font_size = 33
@@ -140,10 +135,10 @@ popup/item_5/text = "Rivalry"
 popup/item_5/id = 5
 
 [node name="Question_3" type="Label" parent="." unique_id=1121926702]
-offset_left = 1004.0
-offset_top = 273.0
-offset_right = 1359.0
-offset_bottom = 516.0
+offset_left = 971.0
+offset_top = 309.0
+offset_right = 1326.0
+offset_bottom = 396.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("7_tanov")
 theme_override_font_sizes/font_size = 33
@@ -153,9 +148,9 @@ murder?"
 [node name="OptionButton" type="OptionButton" parent="Question_3" unique_id=1989511752]
 layout_mode = 0
 offset_left = -8.0
-offset_top = 117.0
+offset_top = 95.0
 offset_right = 381.0
-offset_bottom = 187.0
+offset_bottom = 165.0
 theme_override_styles/normal = SubResource("StyleBoxFlat_v0lkj")
 theme_override_styles/hover = SubResource("StyleBoxFlat_28ocr")
 item_count = 3
@@ -167,20 +162,21 @@ popup/item_2/text = "Basil Hughes"
 popup/item_2/id = 2
 
 [node name="TextureButton" type="TextureButton" parent="." unique_id=464272487]
-offset_left = 1517.0
-offset_top = 860.0
-offset_right = 2196.0
-offset_bottom = 1183.0
-scale = Vector2(0.7453159, 0.8097724)
+offset_left = 1492.0
+offset_top = 839.0
+offset_right = 2171.0
+offset_bottom = 1162.0
+scale = Vector2(0.6420564, 0.7732009)
 texture_normal = ExtResource("8_bcpvq")
 texture_hover = ExtResource("9_tanov")
 
 [node name="Label" type="Label" parent="TextureButton" unique_id=2133448612]
 layout_mode = 0
-offset_left = 233.45808
-offset_top = 125.96126
-offset_right = 443.45807
-offset_bottom = 202.96126
+offset_left = 211.65314
+offset_top = 121.0213
+offset_right = 458.65314
+offset_bottom = 198.0213
+theme_override_fonts/font = ExtResource("9_ugs0k")
 theme_override_font_sizes/font_size = 56
 text = "SUBMIT"
 horizontal_alignment = 1

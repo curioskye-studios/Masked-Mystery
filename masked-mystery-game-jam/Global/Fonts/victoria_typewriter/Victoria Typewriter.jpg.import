@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c84w8cjkhlgh5"
-path="res://.godot/imported/export202602010348101110.png-81cadccb188dc7f5e8890b13f260ea51.ctex"
+uid="uid://bclkw3ub2udha"
+path="res://.godot/imported/Victoria Typewriter.jpg-130b6d9f61318255d696d674f7723ff1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Investigation Screen/Assets/export202602010348101110.png"
-dest_files=["res://.godot/imported/export202602010348101110.png-81cadccb188dc7f5e8890b13f260ea51.ctex"]
+source_file="res://Global/Fonts/victoria_typewriter/Victoria Typewriter.jpg"
+dest_files=["res://.godot/imported/Victoria Typewriter.jpg-130b6d9f61318255d696d674f7723ff1.ctex"]
 
 [params]
 

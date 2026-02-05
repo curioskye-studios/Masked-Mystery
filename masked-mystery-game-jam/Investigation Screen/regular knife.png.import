@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bbg1228pvg1tw"
-path="res://.godot/imported/export202602010348029650.png-0296138f53b8ab22b7798fd07281c83d.ctex"
+uid="uid://i3x3n0nxq0tm"
+path="res://.godot/imported/regular knife.png-e5b17de12cb74a432f48d612f0663a01.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Investigation Screen/Assets/export202602010348029650.png"
-dest_files=["res://.godot/imported/export202602010348029650.png-0296138f53b8ab22b7798fd07281c83d.ctex"]
+source_file="res://Investigation Screen/regular knife.png"
+dest_files=["res://.godot/imported/regular knife.png-e5b17de12cb74a432f48d612f0663a01.ctex"]
 
 [params]
 

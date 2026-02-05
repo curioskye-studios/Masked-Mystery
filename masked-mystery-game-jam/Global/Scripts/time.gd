@@ -10,4 +10,4 @@ func time_left_to_solve():
 	return [minute, second]
 
 func _process(delta):
-	label.text = "%02d:%02d" % time_left_to_solve()
+	label.text = "%02d : %02d" % time_left_to_solve()

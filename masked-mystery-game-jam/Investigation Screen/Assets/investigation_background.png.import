@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://sofenhfo4vk7"
-path="res://.godot/imported/export202602010349284480.png-ed63ee56937b66f89a5068e8eceb6254.ctex"
+uid="uid://b7xxaqwcif71r"
+path="res://.godot/imported/investigation_background.png-ee5b5dc2af3783dbee74dbfb05b6018e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Investigation Screen/Assets/export202602010349284480.png"
-dest_files=["res://.godot/imported/export202602010349284480.png-ed63ee56937b66f89a5068e8eceb6254.ctex"]
+source_file="res://Investigation Screen/Assets/investigation_background.png"
+dest_files=["res://.godot/imported/investigation_background.png-ee5b5dc2af3783dbee74dbfb05b6018e.ctex"]
 
 [params]
 

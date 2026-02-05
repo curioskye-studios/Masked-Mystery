@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://b7l42y6rbbpbi" path="res://Intro Screen/Assets/intro_background.png" id="2_oiuna"]
 [ext_resource type="Texture2D" uid="uid://b1oluiy36gbg1" path="res://Global/UI Assets/button.png" id="3_4a3qj"]
 [ext_resource type="Texture2D" uid="uid://dyo6n1i6wcars" path="res://Global/UI Assets/button_selected.png" id="4_g38d0"]
+[ext_resource type="FontFile" uid="uid://bh2r7hp5y63ay" path="res://Global/Fonts/victoria_typewriter/Victoria Typewriter  Bold.ttf" id="5_7gweu"]
 
 [node name="start" type="Node2D" unique_id=692204140]
 script = ExtResource("1_q5r2j")
@@ -14,44 +15,46 @@ scale = Vector2(1.0142564, 1)
 texture = ExtResource("2_oiuna")
 
 [node name="Start" type="TextureButton" parent="." unique_id=528130696]
-offset_left = 357.0
-offset_top = 783.00006
-offset_right = 1036.0
-offset_bottom = 1106.0
-scale = Vector2(0.8356017, 0.9161168)
+offset_left = 516.0
+offset_top = 817.0
+offset_right = 1195.0
+offset_bottom = 1140.0
+scale = Vector2(0.6262266, 0.76111615)
 texture_normal = ExtResource("3_4a3qj")
 texture_hover = ExtResource("4_g38d0")
 
 [node name="Label" type="Label" parent="Start" unique_id=870313252]
 layout_mode = 0
-offset_left = 245.33224
-offset_top = 118.980415
-offset_right = 424.33224
-offset_bottom = 201.98041
-theme_override_font_sizes/font_size = 60
+offset_left = 231.5456
+offset_top = 118.24756
+offset_right = 436.52966
+offset_bottom = 205.24756
+theme_override_fonts/font = ExtResource("5_7gweu")
+theme_override_font_sizes/font_size = 63
 text = "PLAY"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Quit" type="TextureButton" parent="." unique_id=2072306399]
-offset_left = 903.0
-offset_top = 786.0
-offset_right = 1582.0
-offset_bottom = 1109.0
-scale = Vector2(0.84273195, 0.89117527)
+[node name="Quit" type="TextureButton" parent="." unique_id=211438024]
+offset_left = 933.0
+offset_top = 815.0
+offset_right = 1612.0
+offset_bottom = 1138.0
+scale = Vector2(0.6262266, 0.76111615)
 texture_normal = ExtResource("3_4a3qj")
 texture_hover = ExtResource("4_g38d0")
 
-[node name="Label" type="Label" parent="Quit" unique_id=84763410]
+[node name="Label" type="Label" parent="Quit" unique_id=1979602632]
 layout_mode = 0
-offset_left = 248.00291
-offset_top = 112.21135
-offset_right = 427.00293
-offset_bottom = 195.21135
-theme_override_font_sizes/font_size = 60
+offset_left = 234.73926
+offset_top = 99.85324
+offset_right = 439.72333
+offset_bottom = 211.53122
+theme_override_fonts/font = ExtResource("5_7gweu")
+theme_override_font_sizes/font_size = 63
 text = "QUIT"
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [connection signal="pressed" from="Start" to="." method="_on_start_pressed"]
-[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_2_pressed"]

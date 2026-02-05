@@ -1,0 +1,36 @@
+[remap]
+
+importer="font_data_dynamic"
+type="FontFile"
+uid="uid://p75jo622eohh"
+path="res://.godot/imported/Victoria Typewriter Regular.ttf-ad40170ae098f035b24c9ab1ffec694c.fontdata"
+
+[deps]
+
+source_file="res://Global/Fonts/victoria_typewriter/Victoria Typewriter Regular.ttf"
+dest_files=["res://.godot/imported/Victoria Typewriter Regular.ttf-ad40170ae098f035b24c9ab1ffec694c.fontdata"]
+
+[params]
+
+Rendering=null
+antialiasing=1
+generate_mipmaps=false
+disable_embedded_bitmaps=true
+multichannel_signed_distance_field=false
+msdf_pixel_range=8
+msdf_size=48
+allow_system_fallback=true
+force_autohinter=false
+modulate_color_glyphs=false
+hinting=1
+subpixel_positioning=4
+keep_rounding_remainders=true
+oversampling=0.0
+Fallbacks=null
+fallbacks=[]
+Compress=null
+compress=true
+preload=[]
+language_support={}
+script_support={}
+opentype_features={}
