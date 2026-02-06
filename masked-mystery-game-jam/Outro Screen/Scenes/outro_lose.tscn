@@ -9,7 +9,7 @@
 [node name="outro_lose" type="Node2D" unique_id=692204140]
 script = ExtResource("1_stkl0")
 
-[node name="OutroLoseBackground" type="Sprite2D" parent="." unique_id=156111785]
+[node name="OutroLoseBackground" type="Sprite2D" parent="." unique_id=2095803718]
 position = Vector2(960, 540)
 texture = ExtResource("2_stkl0")
 

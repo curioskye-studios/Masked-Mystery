@@ -27,6 +27,10 @@ var blue_statement_dict = {
 @onready var red_statement = $"Red/Red Statement"
 @onready var blue_statement = $"Blue/Blue Statement"
 
+@onready var yellow_tracker_label = $"Yellow/Yellow Tracker"
+@onready var red_tracker_label = $"Red/Red Tracker"
+@onready var blue_tracker_label = $"Blue/Blue Tracker"
+
 var yellow_tracker = 1
 var red_tracker = 1
 var blue_tracker = 1
@@ -35,37 +39,43 @@ func _on_yellow_back_pressed() -> void:
 	if yellow_tracker > 1:
 		yellow_tracker -= 1
 		yellow_statement.text = yellow_statement_dict[yellow_tracker]
+		yellow_tracker_label.text = str(yellow_tracker) + "/5"
 
 func _on_yellow_next_pressed() -> void:	
 	if yellow_tracker <= 4:
 		yellow_tracker += 1
 		yellow_statement.text = yellow_statement_dict[yellow_tracker]
+		yellow_tracker_label.text = str(yellow_tracker) + "/5"
 
 
 func _on_red_back_pressed() -> void:
 	if red_tracker > 1:
 		red_tracker -= 1
 		red_statement.text = red_statement_dict[red_tracker]
+		red_tracker_label.text = str(red_tracker) + "/5"
 
 func _on_red_next_pressed() -> void:
 	if red_tracker <= 4:
 		red_tracker += 1
 		red_statement.text = red_statement_dict[red_tracker]
+		red_tracker_label.text = str(red_tracker) + "/5"
 
 
 func _on_blue_back_pressed() -> void:
 	if blue_tracker > 1:
 		blue_tracker -= 1
 		blue_statement.text = blue_statement_dict[blue_tracker]
+		blue_tracker_label.text = str(blue_tracker) + "/5"
 
 func _on_blue_next_pressed() -> void:
 	if blue_tracker <= 4:
 		blue_tracker += 1
 		blue_statement.text = blue_statement_dict[blue_tracker]
+		blue_tracker_label.text = str(blue_tracker) + "/5"
 
 
 func _on_back_pressed() -> void:
 	get_tree().change_scene_to_file("res://Autopsy Screen/autopsy.tscn")
 
 func _on_next_pressed() -> void:
-	get_tree().change_scene_to_file("res://Investigation Screen/Scenes/blue_scene_1.tscn")
+	get_tree().change_scene_to_file("res://Investigation Screen/Scenes/investigation.tscn")

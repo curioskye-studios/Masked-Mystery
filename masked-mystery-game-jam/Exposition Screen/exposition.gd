@@ -21,7 +21,7 @@ func _physics_process(delta: float) -> void:
 	elif count == 6:
 		label.text = "You know where the murder likely took place. It’s up to you to solve the mystery."
 	elif count == 7:
-		label.text = "You have 3 masks belonging to each of the suspects, where putting on each offers a different perspective of the crime scene. "
+		label.text = "You have 3 masks belonging to each of the suspects. Explore the crime scene from each of their perspectives by putting on each mask."
 	elif count == 8:
 		label.text = "Use these perspectives to solve the mystery in time before the culprit escapes!"
 		button.visible = true

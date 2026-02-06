@@ -6,7 +6,7 @@ extends Node2D
 
 
 func _on_back_pressed() -> void:
-	get_tree().change_scene_to_file("res://Investigation Screen/Scenes/blue_scene_1.tscn")
+	get_tree().change_scene_to_file("res://Investigation Screen/Scenes/investigation.tscn")
 
 func _on_texture_button_pressed() -> void:
 	print("This is 1: ", ques1.get_selected_id()," This is 2:", ques2.get_selected_id(), " This is 3:" , ques3.get_selected_id())

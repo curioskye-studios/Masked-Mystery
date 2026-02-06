@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bhai0qdprqthn"
-path="res://.godot/imported/description_box.png-ef08af8d90bd6894b281e3c051a1698b.ctex"
+uid="uid://b1eps6iswnrj2"
+path="res://.godot/imported/glass_half.png-6833101a96b3303330863792af9ad8f6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Investigation Screen/Assets/description_box.png"
-dest_files=["res://.godot/imported/description_box.png-ef08af8d90bd6894b281e3c051a1698b.ctex"]
+source_file="res://Investigation Screen/Assets/Glass Assets/glass_half.png"
+dest_files=["res://.godot/imported/glass_half.png-6833101a96b3303330863792af9ad8f6.ctex"]
 
 [params]
 

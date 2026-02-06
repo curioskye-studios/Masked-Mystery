@@ -1,34 +1,34 @@
 [gd_scene format=3 uid="uid://cfpim1kcb1ss5"]
 
 [ext_resource type="Script" uid="uid://6ffuvtjpugn7" path="res://Investigation Screen/Scripts/investigation.gd" id="1_30crl"]
-[ext_resource type="Texture2D" uid="uid://b7xxaqwcif71r" path="res://Investigation Screen/Assets/investigation_background.png" id="2_3pijp"]
-[ext_resource type="Texture2D" uid="uid://c44y6ecdgk27f" path="res://Investigation Screen/Assets/mask_background.png" id="3_aoddg"]
+[ext_resource type="Texture2D" uid="uid://bsatoaewi6dnt" path="res://Investigation Screen/Assets/investigation_background.png" id="2_3pijp"]
+[ext_resource type="Texture2D" uid="uid://cf6hlvh5ieo8a" path="res://Investigation Screen/Assets/Mask Assets/mask_background.png" id="3_30crl"]
 [ext_resource type="FontFile" uid="uid://bh2r7hp5y63ay" path="res://Global/Fonts/victoria_typewriter/Victoria Typewriter  Bold.ttf" id="4_bseu4"]
+[ext_resource type="Texture2D" uid="uid://ctvd8tkhqp8xx" path="res://Investigation Screen/Assets/Mask Assets/yellow_mask.png" id="5_30crl"]
 [ext_resource type="PackedScene" uid="uid://coc68b6e6g0wt" path="res://Global/Scenes/time.tscn" id="5_fupvy"]
-[ext_resource type="Texture2D" uid="uid://634vjg4cmpf1" path="res://Investigation Screen/Assets/Blue POV/carpet_blue.png" id="6_60yht"]
-[ext_resource type="Texture2D" uid="uid://nsxq03vpc7it" path="res://Investigation Screen/Assets/Blue POV/carpet_blue_selected.png" id="7_08hgb"]
-[ext_resource type="Texture2D" uid="uid://w1syf777d67i" path="res://Investigation Screen/Assets/investigation_table.png" id="8_4qb8l"]
-[ext_resource type="Texture2D" uid="uid://qrlemb2o2ihk" path="res://Investigation Screen/Assets/Blue POV/blue_cat.png" id="9_h6tho"]
-[ext_resource type="Texture2D" uid="uid://ciwd4wk4b3bhy" path="res://Investigation Screen/Assets/Blue POV/blue_cat_selected.png" id="10_p13pj"]
-[ext_resource type="Texture2D" uid="uid://umswnhjrod4s" path="res://Investigation Screen/Assets/Blue POV/blue_clock_selected.png" id="11_x05a8"]
-[ext_resource type="Texture2D" uid="uid://by54os6ew6q80" path="res://Investigation Screen/Assets/Blue POV/blue_clock.png" id="12_3gs6n"]
-[ext_resource type="Texture2D" uid="uid://de1hswh342mii" path="res://Investigation Screen/Assets/Blue POV/blue_mirror.png" id="13_xfway"]
-[ext_resource type="Texture2D" uid="uid://cp21qu84w4y7h" path="res://Investigation Screen/Assets/Blue POV/blue_mirror_selected.png" id="14_loyp2"]
-[ext_resource type="Texture2D" uid="uid://bdwrfqs0ut546" path="res://Investigation Screen/Assets/Blue POV/blue_cup.png" id="15_hwncx"]
-[ext_resource type="Texture2D" uid="uid://c15uudwuojxle" path="res://Investigation Screen/Assets/Blue POV/blue_cup_selected.png" id="16_vxas4"]
-[ext_resource type="Texture2D" uid="uid://dmmfywsr3yk58" path="res://Investigation Screen/Assets/murder knife.png" id="17_0s4a3"]
-[ext_resource type="Texture2D" uid="uid://dnx3in7cdkbuj" path="res://Investigation Screen/Assets/selected murder knife.png" id="18_qw2af"]
+[ext_resource type="Texture2D" uid="uid://bbur0co8t7ote" path="res://Investigation Screen/Assets/Mask Assets/yellow_mask_selected.png" id="6_3pijp"]
+[ext_resource type="Texture2D" uid="uid://bnrvtm7h001jt" path="res://Investigation Screen/Assets/Mask Assets/red_mask.png" id="7_3pijp"]
+[ext_resource type="Texture2D" uid="uid://yu5hbjqklbrd" path="res://Investigation Screen/Assets/investigation_table.png" id="8_4qb8l"]
+[ext_resource type="Texture2D" uid="uid://xjb4d288vna4" path="res://Investigation Screen/Assets/Mask Assets/red_mask_selected.png" id="8_aoddg"]
+[ext_resource type="Texture2D" uid="uid://cl3dafm63foqe" path="res://Investigation Screen/Assets/Mask Assets/blue_mask.png" id="9_bseu4"]
+[ext_resource type="Texture2D" uid="uid://cgysmmsbnj6hl" path="res://Investigation Screen/Assets/Mask Assets/blue_mask_selected.png" id="10_fupvy"]
+[ext_resource type="Texture2D" uid="uid://2v7bwhs56g02" path="res://Investigation Screen/Assets/Carpet Assets/carpet_flat.png" id="12_30crl"]
+[ext_resource type="Texture2D" uid="uid://s4woep3f3hdm" path="res://Investigation Screen/Assets/Carpet Assets/carpet_flat_selected.png" id="13_3pijp"]
+[ext_resource type="Texture2D" uid="uid://dsqokl0kk3dg7" path="res://Investigation Screen/Assets/Cat Assets/cat_sleep.png" id="15_aoddg"]
+[ext_resource type="Texture2D" uid="uid://d2e4qtajv37tn" path="res://Investigation Screen/Assets/Cat Assets/cat_sleep_selected.png" id="16_bseu4"]
+[ext_resource type="Texture2D" uid="uid://dtq74majfokhp" path="res://Investigation Screen/Assets/Clock Assets/clock_early.png" id="17_fupvy"]
+[ext_resource type="Texture2D" uid="uid://7yy2bcn7ijvt" path="res://Investigation Screen/Assets/Clock Assets/clock_early_selected.png" id="18_60yht"]
+[ext_resource type="Texture2D" uid="uid://ch43evm1lfpkv" path="res://Investigation Screen/Assets/Mirror Assets/mirror_dirty.png" id="19_08hgb"]
 [ext_resource type="Texture2D" uid="uid://cngttom8u4lqj" path="res://Global/UI Assets/left_navigation.png" id="19_okrvb"]
+[ext_resource type="Texture2D" uid="uid://b8lakb0egh3if" path="res://Investigation Screen/Assets/Mirror Assets/mirror_dirty_selected.png" id="20_4qb8l"]
 [ext_resource type="Texture2D" uid="uid://ccgm3tiudkuen" path="res://Global/UI Assets/left_navigation_selected.png" id="20_w2csf"]
 [ext_resource type="Texture2D" uid="uid://5pi01q475dew" path="res://Global/UI Assets/right_navigation.png" id="21_cvwem"]
+[ext_resource type="Texture2D" uid="uid://b1eps6iswnrj2" path="res://Investigation Screen/Assets/Glass Assets/glass_half.png" id="21_h6tho"]
 [ext_resource type="Texture2D" uid="uid://cpq0sm28lm1gx" path="res://Global/UI Assets/right_navigation_selected.png" id="22_8gk3f"]
-[ext_resource type="Texture2D" uid="uid://dbq7cosjc50jn" path="res://Investigation Screen/Assets/description_box.png" id="23_1xp5b"]
-[ext_resource type="Texture2D" uid="uid://c0iy2nmdft2lv" path="res://Investigation Screen/Assets/yellow_mask.png" id="24_kp1go"]
-[ext_resource type="Texture2D" uid="uid://dula1x5ngjs3o" path="res://Investigation Screen/Assets/yellow_mask_selected.png" id="25_ckffl"]
-[ext_resource type="Texture2D" uid="uid://ci3w1ribe61ve" path="res://Investigation Screen/Assets/red_mask.png" id="26_oh4bt"]
-[ext_resource type="Texture2D" uid="uid://4jre13pabiog" path="res://Investigation Screen/Assets/red_mask_selected.png" id="27_5hgr8"]
-[ext_resource type="Texture2D" uid="uid://cy8611n0113v6" path="res://Investigation Screen/Assets/blue_mask.png" id="28_otu31"]
-[ext_resource type="Texture2D" uid="uid://dy1pxno821b3" path="res://Investigation Screen/Assets/blue_mask_selected.png" id="29_ohrom"]
+[ext_resource type="Texture2D" uid="uid://ddqpuc4igbtrk" path="res://Investigation Screen/Assets/Glass Assets/glass_half_selected.png" id="22_p13pj"]
+[ext_resource type="Texture2D" uid="uid://bhai0qdprqthn" path="res://Investigation Screen/Assets/description_box.png" id="23_1xp5b"]
+[ext_resource type="Texture2D" uid="uid://d07l4svnvhvul" path="res://Investigation Screen/Assets/Knife Assets/knife_dry.png" id="23_x05a8"]
+[ext_resource type="Texture2D" uid="uid://om2i1n56vy7u" path="res://Investigation Screen/Assets/Knife Assets/knife_dry_selected.png" id="24_3gs6n"]
 
 [node name="Investigation" type="Node2D" unique_id=1932357826]
 script = ExtResource("1_30crl")
@@ -39,18 +39,45 @@ texture = ExtResource("2_3pijp")
 
 [node name="MaskBackground" type="Sprite2D" parent="." unique_id=230060833]
 position = Vector2(478.50003, 122.25001)
-scale = Vector2(0.96036583, 0.94534415)
-texture = ExtResource("3_aoddg")
+scale = Vector2(0.9710376, 0.9746048)
+texture = ExtResource("3_30crl")
 
-[node name="Description" type="Label" parent="MaskBackground" unique_id=292821802]
+[node name="PerspectiveLabel" type="Label" parent="MaskBackground" unique_id=292821802]
 offset_left = -349.3462
 offset_top = 76.95611
 offset_right = 58.65381
 offset_bottom = 180.95612
 theme_override_fonts/font = ExtResource("4_bseu4")
 theme_override_font_sizes/font_size = 35
-text = "Perspective: Yellow"
+text = "Perspective: Anastasia"
 vertical_alignment = 1
+
+[node name="YellowMask" type="TextureButton" parent="MaskBackground" unique_id=1218781406]
+offset_left = -307.40314
+offset_top = -80.288956
+offset_right = -127.40314
+offset_bottom = 68.711044
+toggle_mode = true
+texture_normal = ExtResource("5_30crl")
+texture_hover = ExtResource("6_3pijp")
+
+[node name="RedMask" type="TextureButton" parent="MaskBackground" unique_id=987574359]
+offset_left = -94.229126
+offset_top = -61.819935
+offset_right = 100.770874
+offset_bottom = 75.18007
+toggle_mode = true
+texture_normal = ExtResource("7_3pijp")
+texture_hover = ExtResource("8_aoddg")
+
+[node name="BlueMask" type="TextureButton" parent="MaskBackground" unique_id=498339166]
+offset_left = 152.92914
+offset_top = -75.158676
+offset_right = 330.92914
+offset_bottom = 76.841324
+toggle_mode = true
+texture_normal = ExtResource("9_bseu4")
+texture_hover = ExtResource("10_fupvy")
 
 [node name="Time" parent="." unique_id=1807356104 instance=ExtResource("5_fupvy")]
 
@@ -59,29 +86,29 @@ offset_left = 607.0
 offset_top = 669.0
 offset_right = 1919.0
 offset_bottom = 887.0
-texture_normal = ExtResource("6_60yht")
-texture_hover = ExtResource("7_08hgb")
+texture_normal = ExtResource("12_30crl")
+texture_hover = ExtResource("13_3pijp")
 ignore_texture_size = true
 
 [node name="InvestigationTable" type="Sprite2D" parent="." unique_id=142834941]
-position = Vector2(1044, 704)
+position = Vector2(1062, 704)
 texture = ExtResource("8_4qb8l")
 
-[node name="Chair" type="TextureButton" parent="." unique_id=1908573391]
-offset_left = 1307.0
-offset_top = 405.0
-offset_right = 1692.0
-offset_bottom = 817.0
-texture_normal = ExtResource("9_h6tho")
-texture_hover = ExtResource("10_p13pj")
+[node name="Cat" type="TextureButton" parent="." unique_id=1908573391]
+offset_left = 1326.0
+offset_top = 409.0
+offset_right = 1664.0
+offset_bottom = 821.0
+texture_normal = ExtResource("15_aoddg")
+texture_hover = ExtResource("16_bseu4")
 
 [node name="Clock" type="TextureButton" parent="." unique_id=1926348022]
 offset_left = 444.0
 offset_top = 291.0
 offset_right = 577.0
 offset_bottom = 801.0
-texture_normal = ExtResource("11_x05a8")
-texture_hover = ExtResource("12_3gs6n")
+texture_normal = ExtResource("17_fupvy")
+texture_hover = ExtResource("18_60yht")
 ignore_texture_size = true
 stretch_mode = 3
 
@@ -90,26 +117,26 @@ offset_left = 974.0
 offset_top = 254.0
 offset_right = 1149.0
 offset_bottom = 461.0
-texture_normal = ExtResource("13_xfway")
-texture_hover = ExtResource("14_loyp2")
+texture_normal = ExtResource("19_08hgb")
+texture_hover = ExtResource("20_4qb8l")
 ignore_texture_size = true
 stretch_mode = 3
 
 [node name="Glass" type="TextureButton" parent="." unique_id=601018733]
-offset_left = 1100.0
+offset_left = 1118.0
 offset_top = 482.0
-offset_right = 1229.0
+offset_right = 1247.0
 offset_bottom = 645.0
-texture_normal = ExtResource("15_hwncx")
-texture_hover = ExtResource("16_vxas4")
+texture_normal = ExtResource("21_h6tho")
+texture_hover = ExtResource("22_p13pj")
 
 [node name="Knife" type="TextureButton" parent="." unique_id=792329371]
-offset_left = 866.0
+offset_left = 884.0
 offset_top = 538.0
-offset_right = 1084.0
+offset_right = 1102.0
 offset_bottom = 655.0
-texture_normal = ExtResource("17_0s4a3")
-texture_hover = ExtResource("18_qw2af")
+texture_normal = ExtResource("23_x05a8")
+texture_hover = ExtResource("24_3gs6n")
 
 [node name="Back" type="TextureButton" parent="." unique_id=543603199]
 offset_left = -4.0
@@ -134,33 +161,23 @@ texture = ExtResource("23_1xp5b")
 
 [node name="Description" type="Label" parent="DescriptionBox" unique_id=755839354]
 offset_left = -825.0209
-offset_top = -53.0
-offset_right = 665.9791
-offset_bottom = 51.0
+offset_top = -77.0
+offset_right = 733.1183
+offset_bottom = 77.0
 theme_override_fonts/font = ExtResource("4_bseu4")
-theme_override_font_sizes/font_size = 35
+theme_override_font_sizes/font_size = 32
 vertical_alignment = 1
+autowrap_mode = 3
 
-[node name="Yelllow Mask" type="TextureButton" parent="." unique_id=1218781406]
-offset_left = 181.0
-offset_top = 47.0
-offset_right = 422.0
-offset_bottom = 196.0
-texture_normal = ExtResource("24_kp1go")
-texture_hover = ExtResource("25_ckffl")
-
-[node name="Red Mask" type="TextureButton" parent="." unique_id=987574359]
-offset_left = 612.0
-offset_top = 50.0
-offset_right = 849.0
-offset_bottom = 215.0
-texture_normal = ExtResource("26_oh4bt")
-texture_hover = ExtResource("27_5hgr8")
-
-[node name="Blue Mask" type="TextureButton" parent="." unique_id=498339166]
-offset_left = 396.0
-offset_top = 52.0
-offset_right = 603.0
-offset_bottom = 204.0
-texture_normal = ExtResource("28_otu31")
-texture_hover = ExtResource("29_ohrom")
+[connection signal="toggled" from="MaskBackground/YellowMask" to="." method="_on_yellow_mask_toggled"]
+[connection signal="toggled" from="MaskBackground/YellowMask" to="." method="_on_yelllow_mask_toggled"]
+[connection signal="toggled" from="MaskBackground/RedMask" to="." method="_on_red_mask_toggled"]
+[connection signal="toggled" from="MaskBackground/BlueMask" to="." method="_on_blue_mask_toggled"]
+[connection signal="pressed" from="Carpet" to="." method="_on_carpet_pressed"]
+[connection signal="pressed" from="Cat" to="." method="_on_cat_pressed"]
+[connection signal="pressed" from="Clock" to="." method="_on_clock_pressed"]
+[connection signal="pressed" from="Mirror" to="." method="_on_mirror_pressed"]
+[connection signal="pressed" from="Glass" to="." method="_on_glass_pressed"]
+[connection signal="pressed" from="Knife" to="." method="_on_knife_pressed"]
+[connection signal="pressed" from="Back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="Next" to="." method="_on_next_pressed"]

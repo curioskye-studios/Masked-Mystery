@@ -9,7 +9,7 @@
 [node name="outro_win" type="Node2D" unique_id=692204140]
 script = ExtResource("1_ha4p7")
 
-[node name="OutroWinBackground" type="Sprite2D" parent="." unique_id=77676858]
+[node name="OutroWinBackground" type="Sprite2D" parent="." unique_id=1243448294]
 position = Vector2(960, 540)
 texture = ExtResource("2_ha4p7")
 

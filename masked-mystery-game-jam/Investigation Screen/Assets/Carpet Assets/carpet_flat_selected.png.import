@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bhai0qdprqthn"
-path="res://.godot/imported/description_box.png-ef08af8d90bd6894b281e3c051a1698b.ctex"
+uid="uid://s4woep3f3hdm"
+path="res://.godot/imported/carpet_flat_selected.png-7afce180ee73de8a8d6cbefb5ad4f930.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Investigation Screen/Assets/description_box.png"
-dest_files=["res://.godot/imported/description_box.png-ef08af8d90bd6894b281e3c051a1698b.ctex"]
+source_file="res://Investigation Screen/Assets/Carpet Assets/carpet_flat_selected.png"
+dest_files=["res://.godot/imported/carpet_flat_selected.png-7afce180ee73de8a8d6cbefb5ad4f930.ctex"]
 
 [params]
 

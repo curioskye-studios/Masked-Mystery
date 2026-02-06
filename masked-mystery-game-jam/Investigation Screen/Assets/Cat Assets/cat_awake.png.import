@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bhai0qdprqthn"
-path="res://.godot/imported/description_box.png-ef08af8d90bd6894b281e3c051a1698b.ctex"
+uid="uid://b4kmg7628eg6e"
+path="res://.godot/imported/cat_awake.png-4554ce77b145d2a7cf4c6926e7fd8506.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Investigation Screen/Assets/description_box.png"
-dest_files=["res://.godot/imported/description_box.png-ef08af8d90bd6894b281e3c051a1698b.ctex"]
+source_file="res://Investigation Screen/Assets/Cat Assets/cat_awake.png"
+dest_files=["res://.godot/imported/cat_awake.png-4554ce77b145d2a7cf4c6926e7fd8506.ctex"]
 
 [params]
 
