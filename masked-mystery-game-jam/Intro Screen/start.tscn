@@ -15,9 +15,9 @@ texture = ExtResource("2_oiuna")
 
 [node name="Start" type="TextureButton" parent="." unique_id=528130696]
 offset_left = 516.0
-offset_top = 817.0
+offset_top = 779.0
 offset_right = 1195.0
-offset_bottom = 1140.0
+offset_bottom = 1102.0
 scale = Vector2(0.6262266, 0.76111615)
 texture_normal = ExtResource("3_4a3qj")
 texture_hover = ExtResource("4_g38d0")
@@ -36,9 +36,9 @@ vertical_alignment = 1
 
 [node name="Quit" type="TextureButton" parent="." unique_id=211438024]
 offset_left = 933.0
-offset_top = 815.0
+offset_top = 777.0
 offset_right = 1612.0
-offset_bottom = 1138.0
+offset_bottom = 1100.0
 scale = Vector2(0.6262266, 0.76111615)
 texture_normal = ExtResource("3_4a3qj")
 texture_hover = ExtResource("4_g38d0")

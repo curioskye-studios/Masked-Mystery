@@ -13,20 +13,20 @@ script = ExtResource("1_ha4p7")
 position = Vector2(960, 540)
 texture = ExtResource("2_ha4p7")
 
-[node name="Retry" type="TextureButton" parent="." unique_id=739200172]
-offset_left = 706.0
-offset_top = 809.0
-offset_right = 1385.0
-offset_bottom = 1132.0
+[node name="Retry" type="TextureButton" parent="." unique_id=2000510894]
+offset_left = 705.0
+offset_top = 787.0
+offset_right = 1384.0
+offset_bottom = 1110.0
 scale = Vector2(0.72467273, 0.81764877)
 texture_normal = ExtResource("3_ha4p7")
 texture_hover = ExtResource("4_ca0uc")
 
-[node name="Label" type="Label" parent="Retry" unique_id=833230650]
+[node name="Label" type="Label" parent="Retry" unique_id=1264805326]
 layout_mode = 0
-offset_left = 221.82031
+offset_left = 223.20093
 offset_top = 115.0
-offset_right = 439.8203
+offset_right = 441.20093
 offset_bottom = 198.0
 theme_override_fonts/font = ExtResource("5_2o1mi")
 theme_override_font_sizes/font_size = 60

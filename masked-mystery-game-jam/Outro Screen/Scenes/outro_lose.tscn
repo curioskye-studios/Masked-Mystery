@@ -15,9 +15,9 @@ texture = ExtResource("2_stkl0")
 
 [node name="Retry" type="TextureButton" parent="." unique_id=528130696]
 offset_left = 705.0
-offset_top = 809.0
+offset_top = 787.0
 offset_right = 1384.0
-offset_bottom = 1132.0
+offset_bottom = 1110.0
 scale = Vector2(0.72467273, 0.81764877)
 texture_normal = ExtResource("3_stkl0")
 texture_hover = ExtResource("4_4jlun")
