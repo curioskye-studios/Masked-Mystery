@@ -10,17 +10,17 @@
 script = ExtResource("1_u34ra")
 
 [node name="Back" type="TextureButton" parent="." unique_id=2118474751]
-offset_left = 3.0
-offset_top = 447.0
-offset_right = 216.0
-offset_bottom = 665.0
+offset_left = 10.0
+offset_top = 470.0
+offset_right = 223.0
+offset_bottom = 688.0
 texture_normal = ExtResource("2_xx2j2")
 texture_hover = ExtResource("3_ife1m")
 
 [node name="Next" type="TextureButton" parent="." unique_id=737174677]
-offset_left = 1708.0
+offset_left = 1701.0
 offset_top = 468.0
-offset_right = 1916.0
+offset_right = 1909.0
 offset_bottom = 679.0
 texture_normal = ExtResource("4_n4t5d")
 texture_hover = ExtResource("5_5bad6")
