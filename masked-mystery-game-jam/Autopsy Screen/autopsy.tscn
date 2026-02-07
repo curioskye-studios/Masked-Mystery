@@ -3,8 +3,7 @@
 [ext_resource type="Script" uid="uid://bvvlfrqs2ax4j" path="res://Autopsy Screen/autopsy.gd" id="1_eiyos"]
 [ext_resource type="Texture2D" uid="uid://sjadeo5ewq8o" path="res://Autopsy Screen/Assets/autopsy_background.png" id="2_yeap1"]
 [ext_resource type="PackedScene" uid="uid://coc68b6e6g0wt" path="res://Global/Scenes/time.tscn" id="4_flssj"]
-[ext_resource type="Texture2D" uid="uid://5pi01q475dew" path="res://Global/UI Assets/right_navigation.png" id="5_0c2ow"]
-[ext_resource type="Texture2D" uid="uid://cpq0sm28lm1gx" path="res://Global/UI Assets/right_navigation_selected.png" id="6_cp7s2"]
+[ext_resource type="PackedScene" uid="uid://mvuxfmekjpkf" path="res://Global/Scenes/navigation.tscn" id="6_verew"]
 [ext_resource type="FontFile" uid="uid://p75jo622eohh" path="res://Global/Fonts/victoria_typewriter/Victoria Typewriter Regular.ttf" id="7_verew"]
 [ext_resource type="FontFile" uid="uid://bh2r7hp5y63ay" path="res://Global/Fonts/victoria_typewriter/Victoria Typewriter  Bold.ttf" id="8_sdbo2"]
 
@@ -17,13 +16,8 @@ texture = ExtResource("2_yeap1")
 
 [node name="Time" parent="." unique_id=1807356104 instance=ExtResource("4_flssj")]
 
-[node name="Next" type="TextureButton" parent="." unique_id=1625523138]
-offset_left = 1709.0
-offset_top = 487.0
-offset_right = 1917.0
-offset_bottom = 698.0
-texture_normal = ExtResource("5_0c2ow")
-texture_hover = ExtResource("6_cp7s2")
+[node name="Navigation" parent="." unique_id=1604309169 instance=ExtResource("6_verew")]
+position = Vector2(-1, 4)
 
 [node name="Description_2" type="RichTextLabel" parent="." unique_id=195702667]
 offset_left = 1014.99994
@@ -67,5 +61,3 @@ text = "[b]Name:[/b] Fredrick Hughes
 
 [b]Occupation:[/b] Architect
 "
-
-[connection signal="pressed" from="Next" to="." method="_on_next_pressed"]

@@ -20,24 +20,7 @@ texture = ExtResource("2_0tu4q")
 
 [node name="Time" parent="." unique_id=1807356104 instance=ExtResource("3_tttnr")]
 
-[node name="Back" type="TextureButton" parent="." unique_id=2010780439]
-offset_left = -4.0
-offset_top = 501.0
-offset_right = 209.0
-offset_bottom = 719.0
-texture_normal = ExtResource("4_jg28v")
-texture_hover = ExtResource("5_0tu4q")
-
-[node name="Next" type="TextureButton" parent="." unique_id=35892654]
-offset_left = 1695.0
-offset_top = 533.0
-offset_right = 1903.0
-offset_bottom = 744.0
-texture_normal = ExtResource("6_fvwme")
-texture_hover = ExtResource("7_8yvuk")
-
 [node name="Navigation" parent="." unique_id=1604309169 instance=ExtResource("8_rg5sp")]
-visible = false
 position = Vector2(-1, 4)
 
 [node name="Yellow" type="Node" parent="." unique_id=2041768459]
@@ -192,8 +175,6 @@ scale = Vector2(0.54840696, 0.5462889)
 texture_normal = ExtResource("6_fvwme")
 texture_hover = ExtResource("7_8yvuk")
 
-[connection signal="pressed" from="Back" to="." method="_on_back_pressed"]
-[connection signal="pressed" from="Next" to="." method="_on_next_pressed"]
 [connection signal="pressed" from="Yellow/Yellow Back" to="." method="_on_yellow_back_pressed"]
 [connection signal="pressed" from="Yellow/Yellow Next" to="." method="_on_yellow_next_pressed"]
 [connection signal="pressed" from="Red/Red Back" to="." method="_on_red_back_pressed"]

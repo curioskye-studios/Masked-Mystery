@@ -19,16 +19,13 @@
 [ext_resource type="Texture2D" uid="uid://dtq74majfokhp" path="res://Investigation Screen/Assets/Clock Assets/clock_early.png" id="17_fupvy"]
 [ext_resource type="Texture2D" uid="uid://7yy2bcn7ijvt" path="res://Investigation Screen/Assets/Clock Assets/clock_early_selected.png" id="18_60yht"]
 [ext_resource type="Texture2D" uid="uid://ch43evm1lfpkv" path="res://Investigation Screen/Assets/Mirror Assets/mirror_dirty.png" id="19_08hgb"]
-[ext_resource type="Texture2D" uid="uid://cngttom8u4lqj" path="res://Global/UI Assets/left_navigation.png" id="19_okrvb"]
 [ext_resource type="Texture2D" uid="uid://b8lakb0egh3if" path="res://Investigation Screen/Assets/Mirror Assets/mirror_dirty_selected.png" id="20_4qb8l"]
-[ext_resource type="Texture2D" uid="uid://ccgm3tiudkuen" path="res://Global/UI Assets/left_navigation_selected.png" id="20_w2csf"]
-[ext_resource type="Texture2D" uid="uid://5pi01q475dew" path="res://Global/UI Assets/right_navigation.png" id="21_cvwem"]
 [ext_resource type="Texture2D" uid="uid://b1eps6iswnrj2" path="res://Investigation Screen/Assets/Glass Assets/glass_half.png" id="21_h6tho"]
-[ext_resource type="Texture2D" uid="uid://cpq0sm28lm1gx" path="res://Global/UI Assets/right_navigation_selected.png" id="22_8gk3f"]
 [ext_resource type="Texture2D" uid="uid://ddqpuc4igbtrk" path="res://Investigation Screen/Assets/Glass Assets/glass_half_selected.png" id="22_p13pj"]
 [ext_resource type="Texture2D" uid="uid://bhai0qdprqthn" path="res://Investigation Screen/Assets/description_box.png" id="23_1xp5b"]
 [ext_resource type="Texture2D" uid="uid://d07l4svnvhvul" path="res://Investigation Screen/Assets/Knife Assets/knife_dry.png" id="23_x05a8"]
 [ext_resource type="Texture2D" uid="uid://om2i1n56vy7u" path="res://Investigation Screen/Assets/Knife Assets/knife_dry_selected.png" id="24_3gs6n"]
+[ext_resource type="PackedScene" uid="uid://mvuxfmekjpkf" path="res://Global/Scenes/navigation.tscn" id="29_3pijp"]
 
 [node name="Investigation" type="Node2D" unique_id=1932357826]
 script = ExtResource("1_30crl")
@@ -138,21 +135,8 @@ offset_bottom = 655.0
 texture_normal = ExtResource("23_x05a8")
 texture_hover = ExtResource("24_3gs6n")
 
-[node name="Back" type="TextureButton" parent="." unique_id=543603199]
-offset_left = -4.0
-offset_top = 501.0
-offset_right = 209.0
-offset_bottom = 719.0
-texture_normal = ExtResource("19_okrvb")
-texture_hover = ExtResource("20_w2csf")
-
-[node name="Next" type="TextureButton" parent="." unique_id=1535579972]
-offset_left = 1726.0
-offset_top = 522.0
-offset_right = 1934.0
-offset_bottom = 733.0
-texture_normal = ExtResource("21_cvwem")
-texture_hover = ExtResource("22_8gk3f")
+[node name="Navigation" parent="." unique_id=1604309169 instance=ExtResource("29_3pijp")]
+position = Vector2(-1, 4)
 
 [node name="DescriptionBox" type="Sprite2D" parent="." unique_id=1962001080]
 position = Vector2(960.5, 954)
@@ -179,5 +163,3 @@ autowrap_mode = 3
 [connection signal="pressed" from="Mirror" to="." method="_on_mirror_pressed"]
 [connection signal="pressed" from="Glass" to="." method="_on_glass_pressed"]
 [connection signal="pressed" from="Knife" to="." method="_on_knife_pressed"]
-[connection signal="pressed" from="Back" to="." method="_on_back_pressed"]
-[connection signal="pressed" from="Next" to="." method="_on_next_pressed"]
