@@ -3,7 +3,6 @@ extends Node2D
 @onready var label = $Label
 
 func time_left_to_solve():
-	GlobalTimer.start()
 	var time_left = GlobalTimer.time_left
 	var minute = floor(time_left / 60)
 	var second = int(time_left) % 60
