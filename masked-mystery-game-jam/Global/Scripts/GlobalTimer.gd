@@ -1,6 +1,6 @@
 extends Node
 
-const max_time := 720.0 # 12 minutes
+const max_time := 900.0 # 15 minutes
 
 var time_left: float
 var time_is_running := false
