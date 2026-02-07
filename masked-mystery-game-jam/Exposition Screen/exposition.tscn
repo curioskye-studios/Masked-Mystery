@@ -20,11 +20,14 @@ position = Vector2(961, 541)
 texture = ExtResource("2_d6wlc")
 
 [node name="ExpositionBox" type="Sprite2D" parent="." unique_id=870874618]
-position = Vector2(972.99994, 531)
-scale = Vector2(1.0323485, 1.0068808)
+position = Vector2(961.00006, 532)
+scale = Vector2(1.1353779, 1.0068808)
 texture = ExtResource("3_l1ecj")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="ExpositionBox" unique_id=229450188]
+anchors_preset = -1
+anchor_left = -0.018783215
+anchor_right = 0.01766258
 offset_left = -548.2643
 offset_top = -175.79044
 offset_right = 545.35864
@@ -33,28 +36,31 @@ theme_override_fonts/normal_font = ExtResource("4_7kj5w")
 theme_override_font_sizes/normal_font_size = 55
 horizontal_alignment = 1
 vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
 
 [node name="Back" type="TextureButton" parent="." unique_id=606830651]
-offset_left = 8.0
-offset_top = 473.0
-offset_right = 221.0
-offset_bottom = 691.0
+offset_left = 41.0
+offset_top = 864.0
+offset_right = 254.0
+offset_bottom = 1082.0
+scale = Vector2(0.77031213, 0.8302743)
 texture_normal = ExtResource("6_l1ecj")
 texture_hover = ExtResource("7_ydblc")
 
 [node name="Next" type="TextureButton" parent="." unique_id=1639031167]
-offset_left = 1709.0
-offset_top = 487.0
-offset_right = 1917.0
-offset_bottom = 698.0
+offset_left = 1711.0
+offset_top = 861.0
+offset_right = 1919.0
+offset_bottom = 1072.0
+scale = Vector2(0.804659, 0.85685134)
 texture_normal = ExtResource("8_50gd1")
 texture_hover = ExtResource("9_727dr")
 
 [node name="Start" type="TextureButton" parent="." unique_id=302187817]
-offset_left = 709.0
-offset_top = 825.99994
-offset_right = 1388.0
-offset_bottom = 1149.0
+offset_left = 707.00006
+offset_top = 824.0
+offset_right = 1386.0
+offset_bottom = 1147.0
 scale = Vector2(0.7267072, 0.81899095)
 texture_normal = ExtResource("9_ydblc")
 texture_hover = ExtResource("10_l1ecj")
