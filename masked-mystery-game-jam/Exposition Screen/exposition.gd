@@ -60,7 +60,12 @@ func _on_next_pressed() -> void:
 
 
 func _on_start_pressed() -> void:
-	get_tree().change_scene_to_file("res://Autopsy Screen/autopsy.tscn")
+	start_game()
 
 func _on_skip_pressed() -> void:
+	start_game()
+	
+func start_game():
+	GlobalTimer.start_running()	
 	get_tree().change_scene_to_file("res://Autopsy Screen/autopsy.tscn")
+	
