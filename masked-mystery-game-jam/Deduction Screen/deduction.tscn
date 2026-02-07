@@ -58,7 +58,7 @@ corner_detail = 10
 script = ExtResource("1_0csge")
 
 [node name="DeductionBackground" type="Sprite2D" parent="." unique_id=977232902]
-position = Vector2(960, 536)
+position = Vector2(960, 540)
 texture = ExtResource("2_tanov")
 
 [node name="Navigation" parent="." unique_id=1604309169 instance=ExtResource("5_5ootu")]
@@ -133,6 +133,7 @@ offset_left = 971.0
 offset_top = 309.0
 offset_right = 1326.0
 offset_bottom = 396.0
+rotation = -0.027022978
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("7_tanov")
 theme_override_font_sizes/font_size = 33

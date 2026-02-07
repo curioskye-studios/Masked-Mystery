@@ -11,7 +11,7 @@
 script = ExtResource("1_eiyos")
 
 [node name="AutopsyBackground" type="Sprite2D" parent="." unique_id=1075885407]
-position = Vector2(959, 542)
+position = Vector2(960, 540)
 texture = ExtResource("2_yeap1")
 
 [node name="Time" parent="." unique_id=1807356104 instance=ExtResource("4_flssj")]
@@ -20,10 +20,10 @@ texture = ExtResource("2_yeap1")
 position = Vector2(-1, 4)
 
 [node name="Description_2" type="RichTextLabel" parent="." unique_id=195702667]
-offset_left = 1014.99994
-offset_top = 235.99998
-offset_right = 1410.5559
-offset_bottom = 849.1361
+offset_left = 990.9998
+offset_top = 217.99998
+offset_right = 1386.5557
+offset_bottom = 831.1361
 rotation = -0.018082762
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/normal_font = ExtResource("7_verew")
@@ -42,10 +42,10 @@ High praises from his family, scholars and friends. Set to inherit the family fo
 "
 
 [node name="Description_1" type="RichTextLabel" parent="." unique_id=253099886]
-offset_left = 412.99997
-offset_top = 537.99994
-offset_right = 778.3618
-offset_bottom = 759.638
+offset_left = 384.99994
+offset_top = 537.9998
+offset_right = 750.3618
+offset_bottom = 759.6379
 rotation = -0.012835519
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/normal_font = ExtResource("7_verew")

@@ -1,7 +1,6 @@
 [gd_scene format=3 uid="uid://b1q8l7cxfb8w4"]
 
 [ext_resource type="Script" uid="uid://c5lykpc0xod1h" path="res://Interrogation Screen/interrogation.gd" id="1_rg5sp"]
-[ext_resource type="Texture2D" uid="uid://u85f0b71wybb" path="res://Interrogation Screen/Assets/interrogation_background.png" id="2_0tu4q"]
 [ext_resource type="PackedScene" uid="uid://coc68b6e6g0wt" path="res://Global/Scenes/time.tscn" id="3_tttnr"]
 [ext_resource type="Texture2D" uid="uid://cngttom8u4lqj" path="res://Global/UI Assets/left_navigation.png" id="4_jg28v"]
 [ext_resource type="Texture2D" uid="uid://ccgm3tiudkuen" path="res://Global/UI Assets/left_navigation_selected.png" id="5_0tu4q"]
@@ -11,12 +10,15 @@
 [ext_resource type="FontFile" uid="uid://bh2r7hp5y63ay" path="res://Global/Fonts/victoria_typewriter/Victoria Typewriter  Bold.ttf" id="9_ycy24"]
 [ext_resource type="FontFile" uid="uid://p75jo622eohh" path="res://Global/Fonts/victoria_typewriter/Victoria Typewriter Regular.ttf" id="10_thdkl"]
 
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_rg5sp"]
+load_path = "res://.godot/imported/interrogation_background.png-666d5eb53addcbe50acef1e1c9e46197.ctex"
+
 [node name="Interrogation" type="Node2D" unique_id=267638091]
 script = ExtResource("1_rg5sp")
 
 [node name="InterrogationBackground" type="Sprite2D" parent="." unique_id=466769997]
-position = Vector2(961, 543)
-texture = ExtResource("2_0tu4q")
+position = Vector2(960, 540)
+texture = SubResource("CompressedTexture2D_rg5sp")
 
 [node name="Time" parent="." unique_id=1807356104 instance=ExtResource("3_tttnr")]
 
@@ -26,19 +28,19 @@ position = Vector2(-1, 4)
 [node name="Yellow" type="Node" parent="." unique_id=2041768459]
 
 [node name="Yellow Tracker" type="Label" parent="Yellow" unique_id=228157714]
-offset_left = 593.0
-offset_top = 135.0
-offset_right = 658.0
-offset_bottom = 172.0
+offset_left = 615.0
+offset_top = 130.0
+offset_right = 680.0
+offset_bottom = 167.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("9_ycy24")
 theme_override_font_sizes/font_size = 33
 
 [node name="Yellow Label" type="Label" parent="Yellow" unique_id=512195535]
-offset_left = 998.99994
-offset_top = 119.0
-offset_right = 1497.0
-offset_bottom = 156.0
+offset_left = 1002.0
+offset_top = 120.00001
+offset_right = 1500.0
+offset_bottom = 157.0
 rotation = -0.0035349801
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("9_ycy24")
@@ -46,10 +48,10 @@ theme_override_font_sizes/font_size = 30
 text = "Anastasia Thorne (Yellow)"
 
 [node name="Yellow Statement" type="RichTextLabel" parent="Yellow" unique_id=1445565532]
-offset_left = 706.0
-offset_top = 171.0
-offset_right = 1465.0
-offset_bottom = 330.0
+offset_left = 709.0
+offset_top = 172.0
+offset_right = 1468.0
+offset_bottom = 331.0
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/normal_font = ExtResource("10_thdkl")
 theme_override_font_sizes/normal_font_size = 26
@@ -57,19 +59,19 @@ bbcode_enabled = true
 text = "Fredrick and I weren’t particularly close. In fact, from the moment I received that invitation for this god forsaken party, I knew something was going to happen. That fancy knife being out was calling for a disaster of some kind."
 
 [node name="Yellow Back" type="TextureButton" parent="Yellow" unique_id=473953234]
-offset_left = 569.00006
-offset_top = 178.00002
-offset_right = 782.00006
-offset_bottom = 396.0
+offset_left = 572.0
+offset_top = 181.0
+offset_right = 785.0
+offset_bottom = 399.0
 scale = Vector2(0.5513125, 0.5571904)
 texture_normal = ExtResource("4_jg28v")
 texture_hover = ExtResource("5_0tu4q")
 
 [node name="Yellow Next" type="TextureButton" parent="Yellow" unique_id=1771519694]
 offset_left = 1477.0
-offset_top = 185.00006
+offset_top = 188.00005
 offset_right = 1685.0
-offset_bottom = 396.00006
+offset_bottom = 399.00006
 scale = Vector2(0.54840696, 0.5462889)
 texture_normal = ExtResource("6_fvwme")
 texture_hover = ExtResource("7_8yvuk")
@@ -77,18 +79,18 @@ texture_hover = ExtResource("7_8yvuk")
 [node name="Red" type="Node" parent="." unique_id=1603197895]
 
 [node name="Red Tracker" type="Label" parent="Red" unique_id=439104432]
-offset_left = 592.0
+offset_left = 600.0
 offset_top = 457.0
-offset_right = 657.0
+offset_right = 665.0
 offset_bottom = 494.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("9_ycy24")
 theme_override_font_sizes/font_size = 33
 
 [node name="Red Statement" type="RichTextLabel" parent="Red" unique_id=1042943909]
-offset_left = 692.0
-offset_top = 498.0
-offset_right = 1466.0
+offset_left = 684.99994
+offset_top = 497.99997
+offset_right = 1459.0
 offset_bottom = 657.0
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/normal_font = ExtResource("10_thdkl")
@@ -98,29 +100,29 @@ text = "Fredrick is a snobbish, stuck up man who’s always convinced I do thing
 "
 
 [node name="Red Label" type="Label" parent="Red" unique_id=1928892484]
-offset_left = 1027.0
-offset_top = 445.0
-offset_right = 1506.0
-offset_bottom = 482.0
+offset_left = 1019.99994
+offset_top = 444.99997
+offset_right = 1499.0
+offset_bottom = 481.99997
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("9_ycy24")
 theme_override_font_sizes/font_size = 30
 text = "Theodora Redgrave (Red)"
 
 [node name="Red Back" type="TextureButton" parent="Red" unique_id=691084705]
-offset_left = 557.0
-offset_top = 507.0
-offset_right = 770.0
-offset_bottom = 725.0
+offset_left = 556.00006
+offset_top = 510.00003
+offset_right = 769.00006
+offset_bottom = 728.0
 scale = Vector2(0.5513125, 0.5571904)
 texture_normal = ExtResource("4_jg28v")
 texture_hover = ExtResource("5_0tu4q")
 
 [node name="Red Next" type="TextureButton" parent="Red" unique_id=816582030]
-offset_left = 1478.9999
-offset_top = 516.0
-offset_right = 1686.9999
-offset_bottom = 727.0
+offset_left = 1472.0
+offset_top = 519.0
+offset_right = 1680.0
+offset_bottom = 730.0
 scale = Vector2(0.54840696, 0.5462889)
 texture_normal = ExtResource("6_fvwme")
 texture_hover = ExtResource("7_8yvuk")
@@ -128,19 +130,19 @@ texture_hover = ExtResource("7_8yvuk")
 [node name="Blue" type="Node" parent="." unique_id=1413653636]
 
 [node name="Blue Tracker" type="Label" parent="Blue" unique_id=1508115752]
-offset_left = 603.0
+offset_left = 611.0
 offset_top = 780.0
-offset_right = 668.0
+offset_right = 676.0
 offset_bottom = 817.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("9_ycy24")
 theme_override_font_sizes/font_size = 33
 
 [node name="Blue Statement" type="RichTextLabel" parent="Blue" unique_id=547390125]
-offset_left = 706.0
-offset_top = 824.0
-offset_right = 1487.0
-offset_bottom = 980.0
+offset_left = 699.0
+offset_top = 829.0
+offset_right = 1480.0
+offset_bottom = 985.0
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/normal_font = ExtResource("10_thdkl")
 theme_override_font_sizes/normal_font_size = 26
@@ -148,29 +150,29 @@ bbcode_enabled = true
 text = "As Fredrick’s brother, I know firsthand how much he was beloved by everyone. He is loved for his talents, charming personality and impeccable work as an architect. "
 
 [node name="Blue Label" type="Label" parent="Blue" unique_id=986436701]
-offset_left = 1122.0
-offset_top = 775.0
-offset_right = 1513.0
-offset_bottom = 812.0
+offset_left = 1115.0
+offset_top = 780.0
+offset_right = 1506.0
+offset_bottom = 817.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("9_ycy24")
 theme_override_font_sizes/font_size = 30
 text = "Basil Hughes (Blue)"
 
 [node name="Blue Back" type="TextureButton" parent="Blue" unique_id=1415895749]
-offset_left = 573.0
-offset_top = 827.0
-offset_right = 786.0
-offset_bottom = 1045.0
+offset_left = 568.0
+offset_top = 834.0
+offset_right = 781.0
+offset_bottom = 1052.0
 scale = Vector2(0.5513125, 0.5571904)
 texture_normal = ExtResource("4_jg28v")
 texture_hover = ExtResource("5_0tu4q")
 
 [node name="Blue Next" type="TextureButton" parent="Blue" unique_id=1239845704]
-offset_left = 1493.0
-offset_top = 836.0
-offset_right = 1701.0
-offset_bottom = 1047.0
+offset_left = 1488.0
+offset_top = 843.00006
+offset_right = 1696.0
+offset_bottom = 1054.0
 scale = Vector2(0.54840696, 0.5462889)
 texture_normal = ExtResource("6_fvwme")
 texture_hover = ExtResource("7_8yvuk")

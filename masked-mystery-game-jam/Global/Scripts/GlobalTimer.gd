@@ -1,6 +1,6 @@
 extends Node
 
-var time_left := 600.0 # 5 minutes (example)
+var time_left := 5.0 # 5 minutes (example)
 var running := false
 
 func start():

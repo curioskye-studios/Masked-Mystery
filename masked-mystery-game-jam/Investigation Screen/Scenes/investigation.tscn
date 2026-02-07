@@ -35,9 +35,9 @@ position = Vector2(960, 540)
 texture = ExtResource("2_3pijp")
 
 [node name="PerspectiveLabel" type="Label" parent="." unique_id=382526135]
-offset_left = 1518.0
+offset_left = 1513.0
 offset_top = 204.0
-offset_right = 1894.0
+offset_right = 1889.0
 offset_bottom = 357.0
 theme_override_fonts/font = ExtResource("4_bseu4")
 theme_override_font_sizes/font_size = 25
