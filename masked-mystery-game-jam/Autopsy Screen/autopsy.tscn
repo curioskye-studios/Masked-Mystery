@@ -20,9 +20,9 @@ texture = ExtResource("2_yeap1")
 position = Vector2(-1, 4)
 
 [node name="Description_2" type="RichTextLabel" parent="." unique_id=195702667]
-offset_left = 990.9998
+offset_left = 993.99976
 offset_top = 217.99998
-offset_right = 1386.5557
+offset_right = 1384.7163
 offset_bottom = 831.1361
 rotation = -0.018082762
 theme_override_colors/default_color = Color(0, 0, 0, 1)
@@ -31,8 +31,8 @@ theme_override_fonts/bold_font = ExtResource("8_sdbo2")
 theme_override_font_sizes/normal_font_size = 23
 theme_override_font_sizes/bold_font_size = 24
 bbcode_enabled = true
-text = "[b]Description:[/b]  Perfectionist with an exceptional talent for design. Kept everything impeccably clean, save for his grandfather clock that no one was allowed to touch. 
-High praises from his family, scholars and friends. Set to inherit the family fortune as the second born son.
+text = "[b]Description:[/b]  
+High praises from his family, scholars and friends. Perfectionist with an exceptional talent for design. Known for keeping everything impeccably clean, save for his grandfather clock no one was allowed to touch. Set to inherit the family fortune as the second born son. 
 
 [b]Time of Death:[/b] Around 11:10pm.
 
@@ -43,9 +43,9 @@ High praises from his family, scholars and friends. Set to inherit the family fo
 
 [node name="Description_1" type="RichTextLabel" parent="." unique_id=253099886]
 offset_left = 384.99994
-offset_top = 537.9998
+offset_top = 555.9998
 offset_right = 750.3618
-offset_bottom = 759.6379
+offset_bottom = 777.6379
 rotation = -0.012835519
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/normal_font = ExtResource("7_verew")

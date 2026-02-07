@@ -11,7 +11,7 @@ var yellow_statement_dict = {
 var red_statement_dict = { 
 		1: "Fredrick is a snobbish, stuck up man who’s always convinced I do things I don’t. But we unfortunately have always moved in the same circles. I’d never run my home the way he does.", 
 		2: "The state of the place! That room was utterly dreadful. That hideous knife Green boasts about was lying around to be easily stolen.", 
-		3: "There was even a wine glass lying about that mysteriously ended up cracked, some strange, unexplainable red stain that I can’t fathom where it could've possibly come from!",
+		3: "There was even a wine glass lying about that mysteriously ended up cracked, and some strange, unexplainable red stain whose origin I can't even posssibly begin to fathom!",
 		4: "I’m always telling that man that if he gave me the estate, I would treat it the way it deserved. The only thing I did was take a look around the place. I don’t know why that silly cat suddenly bolted out the room.",
 		5: "Quite frankly, it says more about Fredrick’s lack of discipline with the creature than anything. I had to eventually leave that room. Even the atmosphere had begun to feel embarrassing to witness.",
 	}
