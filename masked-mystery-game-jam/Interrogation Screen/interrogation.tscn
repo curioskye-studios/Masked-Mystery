@@ -50,7 +50,6 @@ offset_bottom = 172.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("9_ycy24")
 theme_override_font_sizes/font_size = 33
-text = "1/5"
 
 [node name="Yellow Label" type="Label" parent="Yellow" unique_id=512195535]
 offset_left = 998.9999
@@ -60,19 +59,19 @@ offset_bottom = 163.0
 rotation = -0.0035349801
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("9_ycy24")
-theme_override_font_sizes/font_size = 32
+theme_override_font_sizes/font_size = 30
 text = "Anastasia Thorne (Yellow)"
 
 [node name="Yellow Statement" type="RichTextLabel" parent="Yellow" unique_id=1445565532]
 offset_left = 706.0
 offset_top = 176.0
 offset_right = 1465.0
-offset_bottom = 321.0
+offset_bottom = 335.0
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/normal_font = ExtResource("10_thdkl")
-theme_override_font_sizes/normal_font_size = 28
+theme_override_font_sizes/normal_font_size = 26
 bbcode_enabled = true
-text = "Fredrick and I weren’t particularly close. In fact, from the moment I received that invitation for this god forsaken party, I knew something was going to happen."
+text = "Fredrick and I weren’t particularly close. In fact, from the moment I received that invitation for this god forsaken party, I knew something was going to happen. That fancy knife being out was calling for a disaster of some kind."
 
 [node name="Yellow Back" type="TextureButton" parent="Yellow" unique_id=473953234]
 offset_left = 569.00006
@@ -102,18 +101,17 @@ offset_bottom = 494.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("9_ycy24")
 theme_override_font_sizes/font_size = 33
-text = "1/5"
 
 [node name="Red Statement" type="RichTextLabel" parent="Red" unique_id=1042943909]
 offset_left = 692.0
 offset_top = 502.0
 offset_right = 1483.0
-offset_bottom = 651.0
+offset_bottom = 661.0
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/normal_font = ExtResource("10_thdkl")
-theme_override_font_sizes/normal_font_size = 28
+theme_override_font_sizes/normal_font_size = 26
 bbcode_enabled = true
-text = "Green is a snobbish, stuck up man who’s always convinced I do things I don’t. But we unfortunately have always moved in the same circles.
+text = "Fredrick is a snobbish, stuck up man who’s always convinced I do things I don’t. But we unfortunately have always moved in the same circles. I’d never run my home the way he does.
 "
 
 [node name="Red Label" type="Label" parent="Red" unique_id=1928892484]
@@ -123,7 +121,7 @@ offset_right = 1480.0
 offset_bottom = 482.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("9_ycy24")
-theme_override_font_sizes/font_size = 32
+theme_override_font_sizes/font_size = 30
 text = "Theodora Redgrave (Red)"
 
 [node name="Red Back" type="TextureButton" parent="Red" unique_id=691084705]
@@ -154,18 +152,17 @@ offset_bottom = 817.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("9_ycy24")
 theme_override_font_sizes/font_size = 33
-text = "1/5"
 
 [node name="Blue Statement" type="RichTextLabel" parent="Blue" unique_id=547390125]
 offset_left = 706.0
 offset_top = 832.0
 offset_right = 1501.0
-offset_bottom = 973.0
+offset_bottom = 988.0
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/normal_font = ExtResource("10_thdkl")
-theme_override_font_sizes/normal_font_size = 28
+theme_override_font_sizes/normal_font_size = 26
 bbcode_enabled = true
-text = "As Green’s brother, I know firsthand how much he was beloved by everyone. He is loved for his talents, charming personality and impeccable work as an architect."
+text = "As Fredrick’s brother, I know firsthand how much he was beloved by everyone. He is loved for his talents, charming personality and impeccable work as an architect. "
 
 [node name="Blue Label" type="Label" parent="Blue" unique_id=986436701]
 offset_left = 1100.0
@@ -174,7 +171,7 @@ offset_right = 1491.0
 offset_bottom = 812.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("9_ycy24")
-theme_override_font_sizes/font_size = 32
+theme_override_font_sizes/font_size = 30
 text = "Basil Hughes (Blue)"
 
 [node name="Blue Back" type="TextureButton" parent="Blue" unique_id=1415895749]
