@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Masked Mystery Game Jam"
+config/name="Masked Mystery"
 run/main_scene="uid://bxsoyx23s14o7"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="uid://e3pywowxuwc7"
