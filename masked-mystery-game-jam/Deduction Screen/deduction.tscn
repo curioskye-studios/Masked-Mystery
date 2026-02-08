@@ -4,55 +4,12 @@
 [ext_resource type="Texture2D" uid="uid://cd3dhfxfl2gp2" path="res://Deduction Screen/Assets/deduction_background.png" id="2_tanov"]
 [ext_resource type="PackedScene" uid="uid://coc68b6e6g0wt" path="res://Global/Scenes/time.tscn" id="3_hbkxh"]
 [ext_resource type="PackedScene" uid="uid://mvuxfmekjpkf" path="res://Global/Scenes/navigation.tscn" id="5_5ootu"]
+[ext_resource type="Theme" uid="uid://bpmeookk04dtd" path="res://Global/Themes/ques_option_button_theme.tres" id="6_ugs0k"]
+[ext_resource type="StyleBox" uid="uid://b4x3y4efh44ai" path="res://Global/Themes/ques_optionbutton_style_box.tres" id="7_5ootu"]
 [ext_resource type="FontFile" uid="uid://4le5ilag1j14" path="res://Global/Fonts/Web Open Font Format (.woff)/XTypewriter-Bold.woff" id="7_tanov"]
 [ext_resource type="Texture2D" uid="uid://b1oluiy36gbg1" path="res://Global/UI Assets/button.png" id="8_bcpvq"]
 [ext_resource type="Texture2D" uid="uid://dyo6n1i6wcars" path="res://Global/UI Assets/button_selected.png" id="9_tanov"]
 [ext_resource type="FontFile" uid="uid://bh2r7hp5y63ay" path="res://Global/Fonts/victoria_typewriter/Victoria Typewriter  Bold.ttf" id="9_ugs0k"]
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tanov"]
-bg_color = Color(0, 0, 0, 1)
-corner_radius_top_left = 30
-corner_radius_top_right = 30
-corner_radius_bottom_right = 30
-corner_radius_bottom_left = 30
-corner_detail = 10
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_roa47"]
-corner_radius_top_left = 30
-corner_radius_top_right = 30
-corner_radius_bottom_right = 30
-corner_radius_bottom_left = 30
-corner_detail = 10
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bcpvq"]
-bg_color = Color(0, 0, 0, 1)
-corner_radius_top_left = 30
-corner_radius_top_right = 30
-corner_radius_bottom_right = 30
-corner_radius_bottom_left = 30
-corner_detail = 10
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mbyq8"]
-corner_radius_top_left = 30
-corner_radius_top_right = 30
-corner_radius_bottom_right = 30
-corner_radius_bottom_left = 30
-corner_detail = 10
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_v0lkj"]
-bg_color = Color(0, 0, 0, 1)
-corner_radius_top_left = 30
-corner_radius_top_right = 30
-corner_radius_bottom_right = 30
-corner_radius_bottom_left = 30
-corner_detail = 10
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_28ocr"]
-corner_radius_top_left = 30
-corner_radius_top_right = 30
-corner_radius_bottom_right = 30
-corner_radius_bottom_left = 30
-corner_detail = 10
 
 [node name="Deduction" type="Node2D" unique_id=163325073]
 script = ExtResource("1_0csge")
@@ -67,10 +24,10 @@ position = Vector2(-1, 4)
 [node name="Time" parent="." unique_id=1807356104 instance=ExtResource("3_hbkxh")]
 
 [node name="Question_1" type="Label" parent="." unique_id=783698466]
-offset_left = 402.0
+offset_left = 383.0
 offset_top = 298.0
-offset_right = 787.0
-offset_bottom = 541.0
+offset_right = 768.0
+offset_bottom = 384.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("7_tanov")
 theme_override_font_sizes/font_size = 33
@@ -81,11 +38,12 @@ weapon?"
 layout_mode = 0
 offset_left = -4.0
 offset_top = 96.0
-offset_right = 385.0
+offset_right = 426.0
 offset_bottom = 162.0
-theme_override_fonts/font = ExtResource("9_ugs0k")
-theme_override_styles/normal = SubResource("StyleBoxFlat_tanov")
-theme_override_styles/hover = SubResource("StyleBoxFlat_roa47")
+theme = ExtResource("6_ugs0k")
+theme_override_styles/normal = ExtResource("7_5ootu")
+theme_override_styles/pressed = ExtResource("7_5ootu")
+theme_override_styles/hover = ExtResource("7_5ootu")
 item_count = 4
 popup/item_0/text = "Glass of Wine"
 popup/item_0/id = 0
@@ -97,10 +55,10 @@ popup/item_3/text = "Tripped & Hit the Table"
 popup/item_3/id = 3
 
 [node name="Question_2" type="Label" parent="." unique_id=11084641]
-offset_left = 406.0
+offset_left = 384.0
 offset_top = 569.0
-offset_right = 792.0
-offset_bottom = 812.0
+offset_right = 770.0
+offset_bottom = 624.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("7_tanov")
 theme_override_font_sizes/font_size = 33
@@ -110,10 +68,12 @@ text = "What was the motive?"
 layout_mode = 0
 offset_left = -6.0
 offset_top = 65.0
-offset_right = 383.0
+offset_right = 427.0
 offset_bottom = 135.0
-theme_override_styles/normal = SubResource("StyleBoxFlat_bcpvq")
-theme_override_styles/hover = SubResource("StyleBoxFlat_mbyq8")
+theme = ExtResource("6_ugs0k")
+theme_override_styles/normal = ExtResource("7_5ootu")
+theme_override_styles/pressed = ExtResource("7_5ootu")
+theme_override_styles/hover = ExtResource("7_5ootu")
 item_count = 6
 popup/item_0/text = "Paranoia"
 popup/item_0/id = 0
@@ -129,25 +89,26 @@ popup/item_5/text = "Rivalry"
 popup/item_5/id = 5
 
 [node name="Question_3" type="Label" parent="." unique_id=1121926702]
-offset_left = 936.0
-offset_top = 297.0
-offset_right = 1291.0
-offset_bottom = 384.0
-rotation = -0.027022978
+offset_left = 913.0
+offset_top = 295.00003
+offset_right = 1317.0
+offset_bottom = 382.00003
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("7_tanov")
 theme_override_font_sizes/font_size = 33
 text = "Who committed the 
 murder?"
 
-[node name="OptionButton" type="OptionButton" parent="Question_3" unique_id=1989511752]
+[node name="OptionButton" type="OptionButton" parent="Question_3" unique_id=108782256]
 layout_mode = 0
 offset_left = -8.0
-offset_top = 95.0
-offset_right = 381.0
-offset_bottom = 165.0
-theme_override_styles/normal = SubResource("StyleBoxFlat_v0lkj")
-theme_override_styles/hover = SubResource("StyleBoxFlat_28ocr")
+offset_top = 95.999985
+offset_right = 423.0
+offset_bottom = 161.99998
+theme = ExtResource("6_ugs0k")
+theme_override_styles/normal = ExtResource("7_5ootu")
+theme_override_styles/pressed = ExtResource("7_5ootu")
+theme_override_styles/hover = ExtResource("7_5ootu")
 item_count = 3
 popup/item_0/text = "Anastasia Thorne"
 popup/item_0/id = 0

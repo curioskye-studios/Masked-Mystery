@@ -1,0 +1,21 @@
+[gd_resource type="Theme" format=3 uid="uid://bpmeookk04dtd"]
+
+[ext_resource type="Texture2D" uid="uid://edlb3oxlcsi5" path="res://Global/UI Assets/expand-arrow.png" id="2_vqj8x"]
+[ext_resource type="FontFile" uid="uid://bh2r7hp5y63ay" path="res://Global/Fonts/victoria_typewriter/Victoria Typewriter  Bold.ttf" id="3_33jyg"]
+[ext_resource type="FontFile" uid="uid://p75jo622eohh" path="res://Global/Fonts/victoria_typewriter/Victoria Typewriter Regular.ttf" id="3_jlrdp"]
+
+[resource]
+OptionButton/colors/font_color = Color(0.78039217, 0.7529412, 0.69411767, 1)
+OptionButton/constants/arrow_margin = 21
+OptionButton/constants/h_separation = 12
+OptionButton/constants/line_spacing = 8
+OptionButton/constants/modulate_arrow = 1
+OptionButton/font_sizes/font_size = 22
+OptionButton/fonts/font = ExtResource("3_33jyg")
+OptionButton/icons/arrow = ExtResource("2_vqj8x")
+PopupMenu/constants/item_start_padding = 5
+PopupMenu/constants/v_separation = 8
+PopupMenu/font_sizes/font_size = 21
+PopupMenu/fonts/font = ExtResource("3_jlrdp")
+PopupMenu/icons/radio_checked = null
+PopupMenu/icons/radio_checked_disabled = null

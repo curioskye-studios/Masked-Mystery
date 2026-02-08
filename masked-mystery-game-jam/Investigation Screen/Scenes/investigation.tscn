@@ -91,10 +91,10 @@ texture_hover = ExtResource("10_fupvy")
 [node name="Time" parent="." unique_id=1807356104 instance=ExtResource("5_fupvy")]
 
 [node name="Carpet" type="TextureButton" parent="." unique_id=751127875]
-offset_left = 607.0
-offset_top = 669.0
-offset_right = 1919.0
-offset_bottom = 887.0
+offset_left = 589.0
+offset_top = 653.0
+offset_right = 1928.0
+offset_bottom = 939.0
 texture_normal = ExtResource("12_30crl")
 texture_hover = ExtResource("13_3pijp")
 ignore_texture_size = true
