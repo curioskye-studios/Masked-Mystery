@@ -7,7 +7,7 @@
 
 # How to Play
 
-1. Click [here](https://github.com/curioskye-studios/Masked-Mystery/blob/main/Masked%20Mystery.zip) to download the game zip file.
+1. Click [here](https://github.com/curioskye-studios/Masked-Mystery/raw/refs/heads/main/Masked%20Mystery.zip) to download the game zip file.
 
 2. Extract the **Masked Mystery.zip** file anywhere you'd like. 
 
