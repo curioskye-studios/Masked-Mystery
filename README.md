@@ -27,7 +27,7 @@
 
 1. Click [here](https://github.com/curioskye-studios/Masked-Mystery/raw/refs/heads/main/Masked%20Mystery.zip) to download the game zip file.
 
-2. Extract the **Masked Mystery.zip** file anywhere you'd like. 
+2. Extract the **Masked Mystery.zip** file anywhere on your computer. 
 
 3. Run the **Masked Mystery.exe** file. 
 
