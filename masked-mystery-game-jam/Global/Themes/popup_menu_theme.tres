@@ -1,9 +1,0 @@
-[gd_resource type="Theme" format=3 uid="uid://b2u0u5qn2fkx1"]
-
-[ext_resource type="FontFile" uid="uid://c6n2oatsvwa5v" path="res://Global/Fonts/vinivicious.ttf" id="1_sqqpu"]
-
-[resource]
-PopupMenu/font_sizes/font_size = 23
-PopupMenu/fonts/font = ExtResource("1_sqqpu")
-PopupMenu/icons/radio_checked = null
-PopupMenu/icons/radio_checked_disabled = null
